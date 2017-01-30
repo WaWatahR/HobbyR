@@ -1,0 +1,116 @@
+﻿input[type="number"] {
+  max-width: 80%;
+}
+
+div.outer {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+body {
+background-color: white;
+padding-left: 0px;
+    font-size: medium;
+}
+
+div.tab-content {
+    padding-right: 15px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+div.container-fluid {
+ padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-right: 0;
+    margin-left: 0;
+}
+.navbar-default {
+ background-color: darkblue;
+ height: 80px;
+}
+.navbar-brand {
+ padding-bottom: 0;
+ padding-top: 0;
+ padding-left: 15;
+ padding-right: 180px;
+}
+.navbar-nav {
+ padding-top: 12px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: RoyalBlue;
+    font-size: medium;
+}
+div.container {
+     margin-left: 0px;
+}
+.navbar {
+ margin-bottom: 0px;
+}
+li.active {
+     border-radius: 5px;
+     background-color: RoyalBlue;
+}
+
+/* Customize fonts */
+label, input, button, select { 
+  font-family: 'Helvetica Neue', Helvetica;
+  font-weight: 200;
+}
+h2 { margin-top: 0px;
+    font-size: medium; }
+
+.col-sm-8{
+    margin-top: 20px;
+}
+.well {
+    margin-top: 1px;
+    /*background-color: #BCEF8C;*/
+}
+.col-sm-4 {
+    width: 20%;
+}
+#controls {
+  /* Appearance */
+  /*background-color: white;*/
+  padding: 0 20px 20px 20px;
+  cursor: move;
+  /* Fade out while not hovering */
+  opacity: 0.65;
+  zoom: 0.9;
+  transition: opacity 500ms 1s;
+}
+#controls:hover {
+  /* Fade in while hovering */
+  opacity: 0.95;
+  transition-delay: 0;
+}
+
+
+.chart div {
+  font: 10px sans-serif;
+  background-color: LightSlateGray;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+
+.chart rect {
+  fill: LightSlateGray;
+}
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
