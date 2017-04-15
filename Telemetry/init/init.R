@@ -1,0 +1,7 @@
+source("./config/config.R")
+source("./services/CalcDistance.R")
+source("./services/ExtractDealers.R")
+source("./services/ExtractFault.R")
+source("./services/DealerCluster.R")
+source("./services/DealerFaultDistanceMatrix.R")
+source("./services/PlotLocations.R")

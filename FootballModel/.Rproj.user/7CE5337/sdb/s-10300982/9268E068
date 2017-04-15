@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "url <- 'https://www.google.co.za/maps/place/720+E+Watson+Center+Rd+Carson'\nremDr$navigate(url)\nremDr$getCurrentUrl()\n\n\ngetwd()\ndata = read.csv(\"./data/DimTeam.csv\")\nSaveData(dblive, data, \"DimTeams\")\n",
+    "created" : 1491998653089.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "960139113",
+    "id" : "9268E068",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1492001432105,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled3"
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

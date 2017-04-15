@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#TensorFlow\nlibrary(tensorflow)\ndatasets <- tf$contrib$learn$datasets\nmnist <- datasets$mnist$read_data_sets(\"MNIST-data\", one_hot = TRUE)\n\nsess <- tf$InteractiveSession()\nlibrary(RCurl)\nfor (i in 1:100) {\n    cat(i, sep='\\n')\n    batch <- mnist$train$next_batch(50L)\n    if (i %% 100 == 0) {\n        train_accuracy <- accuracy$eval(feed_dict = dict(x = batch[[1]], y_ = batch[[2]], keep_prob = 1.0))\n        cat(sprintf(\"step %d, training accuracy %g\\n\", i, train_accuracy))\n    }\n    train_step$run(feed_dict = dict(x = batch[[1]], y_ = batch[[2]], keep_prob = 0.5))\n}\n\ntrain_accuracy <- accuracy$eval(feed_dict = dict(x = mnist$test$images, y_ = mnist$test$labels, keep_prob = 1.0))\ncat(sprintf(\"test accuracy %g\", train_accuracy))\n\n tf$argmax(y_, 1L)\n",
+    "created" : 1491248525442.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3558564744",
+    "id" : "D16430C5",
+    "lastKnownWriteTime" : 1491231584,
+    "last_content_update" : 1491231584,
+    "path" : "C:/R/CervixCancer/dev/TensorFlow.R",
+    "project_path" : "dev/TensorFlow.R",
+    "properties" : {
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

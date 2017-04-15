@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1492062869861.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "645E67FB",
+    "lastKnownWriteTime" : 27303364806049904,
+    "last_content_update" : 1492062869861,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "3A4481D4",
+        "caption" : "PlayerList",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=PlayerList&cache_key=3A4481D4",
+        "displayedObservations" : 630050,
+        "environment" : "",
+        "object" : "PlayerList",
+        "preview" : 0,
+        "totalObservations" : 630050,
+        "variables" : 14
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,23 @@
+---
+title: "Notes"
+author: "Warren Allworth"
+date: "March 15, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Fantasy Points
+
+1) A player is going to score 2 point, 4 point >4
+
+
+perhaps 
+
+* likelihood of team scoring high
+* strategy used in game
+* form and how long it lasts
+* 
+

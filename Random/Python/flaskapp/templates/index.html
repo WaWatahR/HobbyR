@@ -1,0 +1,83 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+
+<link href="static/css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Recognition | Aculocity</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Warren Allworth,R, Shiny, D3, Data Science" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<link rel=stylesheet type='text/css' href="{{ url_for('static', filename='css/bootstrap.css') }}">
+<link rel=stylesheet type='text/css' href="{{ url_for('static', filename='css/style.css') }}">
+
+
+<!--start-smoth-scrolling-->
+</head>
+<body>
+	<!--header-top-starts-->
+	<div class="header-top">
+		<div class="container">
+			<div class="head-main">
+				<a href="index.html"><img src="{{ url_for('static', filename='images/aculocity.png') }}" alt="" style="height:150px"/></a>
+			</div>
+		</div>
+	</div>
+	<!--header-top-end-->
+	<!--start-header-->
+	<div class="header">
+		<div class="container">
+			<div class="head">
+				<div class="navigation">
+					 <span class="menu"></span> 
+						<ul class="navig">
+							<li><a href="templates/index.html"  class="active">Home</a></li>
+						</ul>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="about">
+		<div class="container">
+			<div class="about-main">
+				<p>Upload a JPG image to determine the the contents of the photo:</p>
+				<br/>
+				<form action="upload" method="post" enctype="multipart/form-data">
+					<input type="file" name="file"><br/><br/>
+					<input type="submit" value="Analyze">
+				</form>
+				<br/>
+				{% if filename %}
+					<img src="{{filename}}"  style="max-height: 200px;"/>
+					<br/>
+					<h3>The estimated classifications are as follows:</h3>
+					<br/>
+					<p>{{class1}}</p>
+					<p>{{class2}}</p>
+					<p>{{class3}}</p>
+					<p>{{class4}}</p>
+					<p>{{class5}}</p>
+				{% endif %}
+				
+			</div>
+		</div>
+	</div>
+	<!--footer-starts-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-text">
+				<p>Image Recognition MVP 2017</p>
+			</div>
+		</div>
+	</div>
+	<!--footer-end-->
+</body>
+</html>

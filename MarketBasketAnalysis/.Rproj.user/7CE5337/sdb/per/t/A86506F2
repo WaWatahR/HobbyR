@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "# Read all sales transactions\n\nReadTransactions = function(dbcon){\n    cat(\"Reading Transactions\")\n    query = \"SELECT DISTINCT TOP 10000\n        \tSalesOrderNumber,\n            UPPER(PartNumber) AS PartNumber\n            FROM [SDH].[F_GVWPartSalesOrder] so\n            INNER JOIN SDH.CD_Part p ON p.PartSID=so.PartSID\n            WHERE OrderCompany<>2 AND OrderTypeSID=17\"\n    \n    # Create connection to database\n    dbcon = odbcDriverConnect('driver={SQL Server};server=GVWAC51;database=SDHAnalytical', case=\"nochange\")\n    \n    return(sqlQuery(dbcon, query, stringsAsFactors=F))\n}",
+    "created" : 1489498765738.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "125847665",
+    "id" : "A86506F2",
+    "lastKnownWriteTime" : 1489499694,
+    "last_content_update" : 1489499694138,
+    "path" : "C:/R/MarketBasketAnalysis/Services/ReadTransactions.R",
+    "project_path" : "Services/ReadTransactions.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

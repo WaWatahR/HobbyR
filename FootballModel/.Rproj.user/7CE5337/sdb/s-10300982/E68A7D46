@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "FixtureList = function(){\n    return( read.csv(\"./data/fixturelist.csv\"))\n}",
+    "created" : 1492256156843.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "369698716",
+    "id" : "E68A7D46",
+    "lastKnownWriteTime" : 1491426542,
+    "last_content_update" : 1491426542,
+    "path" : "C:/R/FootballModel/Dev/FixtureList.R",
+    "project_path" : "Dev/FixtureList.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

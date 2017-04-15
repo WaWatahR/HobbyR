@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(plumber)\n\n#* @get /salesgraph\n#* @png\nmakePlot <- function(title){\n    par(mar = rep(2, 4)) # margins\n    dates <- seq(as.Date(\"2015-10-01\"),\n                 as.Date(\"2015-10-31\"), by=1)\n    sold <- 1:31\n    \n    plot(dates, sold, type=\"b\", main=title)\n}\n\n#* @get /test\ntest <- function(req, res){\n    ip <- req$REMOTE_ADDR\n    c(ip = ip, res$setHeader(\"Last-Modified\",\n                  Sys.time()))\n}\n",
+    "created" : 1491399064992.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4153637293",
+    "id" : "63C1B719",
+    "lastKnownWriteTime" : 1491400236,
+    "last_content_update" : 1491400236927,
+    "path" : "C:/R/OLAP/plumber.R",
+    "project_path" : "plumber.R",
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "TransposeImportImages = function(filepath, xdim, ydim){\n    \n    #Get a list of all images in filepath\n    image_names = dir(filepath, pattern=\".jpg\")\n    image_class = rep(0,3)\n    image_class[as.integer(str_sub(filepath,-1))] = 1\n    \n    #subset for test\n    image_names = image_names[1:20]\n    \n    #Import in parralel\n    images = do.call(\"rbind\",foreach(i = 1:length(image_names), .packages = c('imager', 'stringr', 'reshape2')) %dopar% {\n                im = load.image(paste0(filepath, \"/\", image_names[i])) %>% \n                            resize(xdim, ydim) %>%\n                           grayscale\n                #temp = cbind(t(d$value), Name = image_names[i], Class = image_class)\n                temp = data.frame(t(as.data.frame(im)$value))\n                temp\n            })\n    \n    #Save a list of one hot encoding for classs\n    class = do.call(\"rbind\",foreach(i = 1:length(image_names), .packages = c('imager', 'stringr', 'reshape2')) %dopar% {\n        image_class\n    })\n    \n    return(list(images, class))\n}",
+    "created" : 1491244629453.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1491514765",
+    "id" : "A840CB1C",
+    "lastKnownWriteTime" : 1491224761,
+    "last_content_update" : 1491224761,
+    "path" : "C:/R/CervixCancer/services/TransposeImportImages.R",
+    "project_path" : "services/TransposeImportImages.R",
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

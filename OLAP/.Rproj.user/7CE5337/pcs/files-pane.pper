@@ -1,0 +1,9 @@
+{
+    "path" : "C:/R/OLAP",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

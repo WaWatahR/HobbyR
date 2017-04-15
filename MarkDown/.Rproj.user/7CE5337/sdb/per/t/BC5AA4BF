@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1488810644443.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BC5AA4BF",
+    "lastKnownWriteTime" : 27303364806049904,
+    "last_content_update" : 1488810644443,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "2760EF09",
+        "caption" : "AssetFact",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=AssetFact&cache_key=2760EF09",
+        "displayedObservations" : 2,
+        "environment" : "",
+        "object" : "AssetFact",
+        "preview" : 0,
+        "totalObservations" : 2,
+        "variables" : 4
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "#Main Script\nsource(\"./Services/LoadLibaries.R\")\noptions(digits=2)\n# transactions = ReadTransactions(dbcon)\n\ndata(\"Groceries\")\ntrans_id = c(1,1,1,2,2,3,3,3,3,4,4,5,5,5,5)\nproducts = c(sample(c('A','B','C','D'), 3, replace = F),\n            sample(c('A','B','C','D'), 2, replace = F),\n            sample(c('A','B','C','D'), 4, replace = F),\n            sample(c('A','B','C','D'), 2, replace = F),\n            sample(c('A','B','C','D'), 4, replace = F))\n\norders = data.frame(trans_id, products)\nt = split(as.character(orders$products), orders$trans_id)\n\nt= Groceries\n# convert the data into a “Transaction” object optimized for running the arules algorithm\ntxn = as(t, \"transactions\")\n\n# Plot item frequencies\nitemFrequencyPlot(txn, topN = 25)\n\n# Build Model\nrules = apriori(txn, parameter = list(sup = 0.001, conf = 0.5, target=\"rules\"))\n\n# Inspect Rules\ninspect(rules)\n\n# sort out the rules\nrules<-sort(rules, by=\"confidence\", decreasing=TRUE)\ninspect(rules[1:5])\n# Summary\nsummary(rules)\n\n# What are customers likely to buy before buying whole milk\nrules1<-apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.08), \n               appearance = list(default=\"lhs\",rhs=\"whole milk\"),\n               control = list(verbose=F))\nrules1<-sort(rules1, decreasing=TRUE,by=\"confidence\")\ninspect(rules1[1:5])\n\n# What are customers likely to buy if they purchase whole milk?\nrules2<-apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.15,minlen=2), \n                appearance = list(default=\"rhs\",lhs=c(\"rice\",\"sugar\")),\n                control = list(verbose=F))\nrules2<-sort(rules2, decreasing=TRUE,by=\"confidence\")\ninspect(rules2[1:5])\n\n# Plots\nplot(rules, measure=c(\"support\",\"lift\"), shading=\"confidence\")\nplot(rules, shading=\"order\", control=list(main =\"Two-key plot\"))\n\n# Subset rules \nsubrules = rules[quality(rules)$confidence > 0.9]\n\n# Interactive graph for investigation\nsel = plot(rules, measure=c(\"support\",\"lift\"), shading=\"confidence\", interactive=TRUE);\n\nsel = plot(rules, method=\"grouped\", interactive=TRUE)\n\nplot(rules2, method=\"graph\")\nplot(rules2, method=\"paracoord\")\n",
+    "created" : 1489499278732.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "229027191",
+    "id" : "80050F64",
+    "lastKnownWriteTime" : 1489588710,
+    "last_content_update" : 1489588710906,
+    "path" : "C:/R/MarketBasketAnalysis/Main.R",
+    "project_path" : "Main.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(\"lme4\")\nlibrary(\"nnet\")\nlibrary(\"httr\")\nlibrary(\"jsonlite\")\nlibrary(\"RODBC\")\nlibrary(\"scales\")\nlibrary(\"rvest\")\nlibrary(\"RSelenium\")\n\n# Load Utility functions\nsource(\"./utilities/SaveData.R\")\n\n# Parameters\ndblive = odbcDriverConnect('driver={SQL Server};server=localhost;database=FantasyFootball', case=\"nochange\")\ndbstg = odbcDriverConnect('driver={SQL Server};server=localhost;database=FantasyFootballStaging', case=\"nochange\")\n\nrD = rsDriver(port = 4569L, browser='phantomjs')\nhtmlsession <- rD[[\"client\"]]\n\nrD[[\"server\"]]$stop() ",
+    "created" : 1491762576770.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3549501507",
+    "id" : "556A7CA5",
+    "lastKnownWriteTime" : 1492069864,
+    "last_content_update" : 1492069864901,
+    "path" : "C:/R/FootballModel/init/Config.R",
+    "project_path" : "init/Config.R",
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

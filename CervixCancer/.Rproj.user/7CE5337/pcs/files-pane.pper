@@ -1,0 +1,13 @@
+{
+    "path" : "C:/R/CervixCancer/services",
+    "sortOrder" : [
+        {
+            "ascending" : false,
+            "columnIndex" : 1
+        },
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

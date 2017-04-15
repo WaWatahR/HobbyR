@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "\n# Value of portfolio\nW = 500000\nalpha = 0.05\nz = abs(qnorm(1-alpha))\nsigma = 0.07\nn=1\n\nsigma = seq(0.01, 0.2, 0.01)\nVaR = data.frame(W*z*sigma*sqrt(n))\nVaR\n\n\n# \nnames = c(\"Asset 1\", \"Asset 2\")\nweights = c(0.4, 0.6)\nassest_value = c(1.78)\nstddev = c(0.0178, 0.0196)\ncorr_coef = c(0.25, 0.25)\n\n\nAssetFact = cbind(names, weights, stddev, corr_coef)\n\nport_value = 200\nconf_lvl = 0.95\nn=1 \n\nl = nrow(AssetFact)\ncor_matrix = matrix(1, l, l)\nfor(i in 1:l){\n    for(j in 1:l){\n        if(i!=j) cor_matrix[i,j] = corr_coef[i+j-2]\n    }\n}\n\n\nvalue * t(weights) %*% (diag(stddev) %*% cor_matrix %*% diag(stddev)) %*% t(t(weights))\n\n\n\nVaR = value * qnorm(conf_lvl) * sqrt( (weights*stddev)^2 )",
+    "created" : 1488809473115.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3425302909",
+    "id" : "A66DA434",
+    "lastKnownWriteTime" : 1488800713,
+    "last_content_update" : 1488812662839,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

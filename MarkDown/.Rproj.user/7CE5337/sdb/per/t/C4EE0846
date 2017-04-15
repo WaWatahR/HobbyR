@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Vector Basics\"\nauthor: \"Warren Allworth\"\ndate: \"March 6, 2017\"\noutput: html_document\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = TRUE)\n```\n\n## Basic Vector Functionality \n\n1. [Identity Matrix](#Identity Matrix)\n\n\n## Identity Matrix\n\nR\n```{r eval=FALSE}\ndiag(5)\n```\n\nOctave\\Matlab\n```{rcpp eval=FALSE}\neye(5)\n```\n\nPython\n```{python eval=FALSE}\nimport numpy as np\nnp.identity(3)\n\n```\n\n",
+    "created" : 1488799008103.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "545348866",
+    "id" : "C4EE0846",
+    "lastKnownWriteTime" : 1488799719,
+    "last_content_update" : 1488799719366,
+    "path" : "C:/R/MarkDown/Vector Basics.Rmd",
+    "project_path" : "Vector Basics.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

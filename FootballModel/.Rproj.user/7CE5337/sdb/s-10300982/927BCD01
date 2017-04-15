@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "SaveData = function(dbcon, data, TableName, Insert=T, BatchSize = 1000){\n    \n    len = nrow(data)\n    \n    for(i in 1:ncol(data)){\n        if(class(data[,i])=='character'){\n            data[,i] = paste0(\"'\", gsub(\"'\", \"''\", data[,i]), \"'\")\n        }\n        if(class(data[,i])=='logical'){\n            data[,i] = as.integer(data[,i])\n        }\n        if(class(data[,i])=='factor'){\n            if(sum(is.na(suppressWarnings(as.numeric(as.character(data[,i])))))>0){\n                data[,i] = paste0(\"'\", gsub(\"'\", \"''\", as.character(data[,i])), \"'\")\n            } else {\n                as.numeric(data[,i])\n            }\n        }\n    }\n    #Remove na's\n    #Sdata[is.na(data)]=0\n    \n    if(!Insert){\n        sqlQuery(dbcon, paste('TRUNCATE TABLE', TableName))\n    }\n    \n    if(nrow(data)==1){\n        query = paste(\"INSERT INTO\", TableName, \"(\",\n                      paste0('[', names(data), ']', collapse = ','),\n                      \")\",\n                      paste(\" SELECT\", gsub('NA', 'NULL', data[(BatchSize*(i-1)+1):min(i*BatchSize,len),]), collapse = ' '), sep=\"\\n\")\n        sqlQuery(dbcon, query)  \n    } else {\n        for(i in 1:ceiling(len/BatchSize)){\n            query = paste(\"INSERT INTO\", TableName, \"(\",\n                          paste0('[', names(data), ']', collapse = ','),\n                          \")\", \n                          paste(\" SELECT\", gsub('NA', 'NULL', do.call(paste, c(data[(BatchSize*(i-1)+1):min(i*BatchSize,len),], sep=','))), \"UNION ALL\", collapse = ' '), sep=\"\\n\")\n            sqlQuery(dbcon, substring(query, 1, nchar(query)-9))  \n        }\n    }\n}\n# SaveData(dbcon, data,'Top50UserTeams', Insert=F)\n\n\n",
+    "created" : 1492258152087.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3660743025",
+    "id" : "927BCD01",
+    "lastKnownWriteTime" : 1491041934,
+    "last_content_update" : 1491041934,
+    "path" : "C:/R/FootballModel/utilities/SaveData.R",
+    "project_path" : "utilities/SaveData.R",
+    "properties" : {
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

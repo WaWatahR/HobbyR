@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "LoadLibrary = function(libraryName = '') {\n    \n    cat(paste('Loading library', libraryName, '\\n'))\n    \n    if (!libraryName %in% rownames(installed.packages()))\n        \n    {\n        cat('Library needs to be installed...\\n')\n        \n        install.packages(libraryName, quiet = TRUE)\n        \n        suppressPackageStartupMessages(library(as.character(libraryName), character.only = TRUE, warn.conflicts = FALSE, quietly=T))\n        \n        cat('Library installed and loaded.\\n')\n        \n    } else {\n        suppressPackageStartupMessages(library(as.character(libraryName), character.only = TRUE))\n    }\n}\n\nLoadLibrary('RODBC')\nLoadLibrary('arules')\nLoadLibrary(mclust)\nLoadLibrary(arulesViz)\n#dbcon = odbcDriverConnect('driver={SQL Server};server=GVWAC51;database=SDHAnalytical', case=\"nochange\")",
+    "created" : 1489499130516.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3539894372",
+    "id" : "8AA7A51F",
+    "lastKnownWriteTime" : 1489576494,
+    "last_content_update" : 1489576494626,
+    "path" : "C:/R/MarketBasketAnalysis/Services/LoadLibaries.R",
+    "project_path" : "Services/LoadLibaries.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

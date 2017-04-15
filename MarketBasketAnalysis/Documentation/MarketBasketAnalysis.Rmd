@@ -1,0 +1,64 @@
+---
+title: "Market Basket Analysis"
+author: "Warren Allworth"
+date: "March 14, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## What is Market Basket Analysis?
+
+Market Basket Analysis, otherwise known as Affinity analysis and association rule learning encompasses a broad set of analytics techniques aimed at uncovering the associations and connections between specific objects.
+
+Items
+
+Items are the objects that we are identifying associations between. For an online retailer, each item is a product in the shop. For a publisher, each item might be an article, a blog post, a video etc. A group of items is an item set.
+
+$$I = \{i_1,i_2,...,i_m\}$$
+Transactions are instances of groups of items co-occuring together. For an online retailer, a transaction is, generally, a, transaction. For a publisher, a transaction might be the group of articles read in a single visit to the website. (It is up to the analyst to define over what period to measure a transaction.) For each transaction, then, we have an item set.
+
+$$t_n = \{i_h,i_j,i_k,... \} \space where \space h,j,k \in 1,..,m $$
+
+### Support
+The frequency which the item set appears within the transaction data.The support of ${\displaystyle X}$ with respect to ${\displaystyle T}$ is defined as the proportion of transactions ${\displaystyle t}$ in the database which contains itemset ${\displaystyle X}$.
+
+$${\displaystyle \mathrm {supp} (X)={\frac {|\{t\in T;X\subseteq t\}|}{|T|}}}$$
+
+### Confidence
+
+Confidence is an indication of how often the rule has been found to be true.
+
+The confidence value of a rule, ${\displaystyle X\Rightarrow Y}$ , with respect to a set of transactions ${\displaystyle T}$, is the proportion of the transactions that contains ${\displaystyle X}$ which also contains ${\displaystyle Y}$.
+
+Confidence is defined as:
+
+$${conf}(X \Rightarrow Y)=\frac{{\mathrm {supp}}(X\cup Y)}{{\mathrm {supp}}(X)}$$
+
+An interpretation for the rule is as follows: item$_1$
+
+The rule item$_1$,item$_3$ $\Rightarrow$ item$_3$ has the confidence of 0.16/0.2 = 0.8 meaning that for all of the transactions containing item$_1$ and item$_2$ the rule is correct 80% of the time. (i.e if a person bought item$_1$ and item$_2$ they bought item$_3$ as well 80% of the time)
+
+### Lift
+
+The lift of a rule is defined as:
+
+$$\mathrm {lift}(X \Rightarrow Y) = \frac{\mathrm {supp}(X \cup Y)}{\mathrm {supp}(X) \times \mathrm {supp}(Y)}$$
+The lift of the rule should be maximized as this indicates the more dependancy on the items. Lift equal to one is indicative of indepence. 
+
+The value of lift is that it considers both the confidence of the rule and the overall data set.
+
+### Conviction
+
+The conviction of a rule is defined as
+
+$$\mathrm {conv}(X \Rightarrow Y) = \frac{1- \mathrm{supp}(Y)}{1 - \mathrm {conf}(X \Rightarrow Y)}$$
+and can be interpreted as the ratio of the expected frequency that X occurs without Y. That is A conviction of 1.2 shows the rule would be incorrect 20% more often if the association between X and Y was purely random chance.
+
+In R the arules package makes this process exteremely easy.
+
+## Getting into the code
+
+

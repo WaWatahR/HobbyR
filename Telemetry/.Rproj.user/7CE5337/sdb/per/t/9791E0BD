@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "#Get Dealers from customer master\nDealers = ExtractDealers(dbcon)\nFault = ExtractFault(dbcon)\n\nClusterResults = DealerCluster(Dealers, Fault, k=6)\n\np = MapPlot(ClusterResults[[1]])\nggplotly(p)\n\nPoints = Fault[sample(1:nrow(Fault), 100, replace=F),]\n\np = MapPointsOverlay(p, Points, \"red\")\nggplotly(p)",
+    "created" : 1491474828076.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "467836811",
+    "id" : "9791E0BD",
+    "lastKnownWriteTime" : 1491557762,
+    "last_content_update" : 1491557762245,
+    "path" : "C:/R/Telemetry/Main.R",
+    "project_path" : "Main.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

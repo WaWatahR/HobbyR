@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(imager)\nlibrary(RODBC)\nlibrary(stringr)\nlibrary(reshape2)\nlibrary(foreach)\nlibrary(doParallel)\nlibrary(tensorflow)\n\n#dbcon = odbcDriverConnect('driver={SQL Server};server=localhost;database=ImageDatabase', case=\"nochange\")\nfilepath = \"D:/train/Type_\"\n\ncl = makeCluster(4)\nregisterDoParallel(cl)\n\n#Initialize tensorflow\nsource(\"./config/tensorflow_init.R\")",
+    "created" : 1491244606446.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2778966852",
+    "id" : "B4FA5059",
+    "lastKnownWriteTime" : 1491224096,
+    "last_content_update" : 1491224096,
+    "path" : "C:/R/CervixCancer/config/init.R",
+    "project_path" : "config/init.R",
+    "properties" : {
+        "tempName" : "Untitled3"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

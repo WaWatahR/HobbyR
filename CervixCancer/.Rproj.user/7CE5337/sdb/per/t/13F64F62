@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "#Initialize tensorflow\nClassCount= 3L\nxdim = 64L\nydim = 64L\nConvstride = 5L\nPoolstride = 2L\nPixelCount = xdim * ydim\nFilterCount = ceiling(PixelCount / (Convstride^2))\n\nsess <- tf$InteractiveSession()\noptimizer <- tf$train$GradientDescentOptimizer(0.5)\nx <- tf$placeholder(tf$float32, shape(NULL, PixelCount))\ny_ <- tf$placeholder(tf$float32, shape(NULL, ClassCount))\nb <- tf$Variable(tf$zeros(shape(10L)))\nsess$run(tf$global_variables_initializer())\n\nweight_variable <- function(shape) {\n    initial <- tf$truncated_normal(shape, stddev=0.1)\n    tf$Variable(initial)\n}\n\nbias_variable <- function(shape) {\n    initial <- tf$constant(0.1, shape=shape)\n    tf$Variable(initial)\n}\n\nconv2d <- function(x, W) {\n    tf$nn$conv2d(x, W, strides=c(1L, 1L, 1L, 1L), padding='SAME')\n}\n\nmax_pool_2x2 <- function(x) {\n    tf$nn$max_pool(x, ksize=c(1L, 2L, 2L, 1L), strides=c(1L, 2L, 2L, 1L), padding='SAME')\n}",
+    "created" : 1491244717165.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1467781875",
+    "id" : "13F64F62",
+    "lastKnownWriteTime" : 1491285461,
+    "last_content_update" : 1491285461177,
+    "path" : "C:/R/CervixCancer/config/tensorflow_init.R",
+    "project_path" : "config/tensorflow_init.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

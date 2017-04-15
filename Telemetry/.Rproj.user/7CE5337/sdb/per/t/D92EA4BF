@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "MapPointsOverlay = function(p, Points, color){\n    p = p + geom_point(data = Points, aes(x = Longitude, y = Latitude), color = color, size = 1)\n    return(ggplotly(p))\n}",
+    "created" : 1491557330915.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3752891490",
+    "id" : "D92EA4BF",
+    "lastKnownWriteTime" : 1491557516,
+    "last_content_update" : 1491557516826,
+    "path" : "C:/R/Telemetry/services/MapOverlay.R",
+    "project_path" : "services/MapOverlay.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

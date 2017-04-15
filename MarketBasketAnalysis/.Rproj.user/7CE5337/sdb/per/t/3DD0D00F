@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "# Market Basket REST Inteface\ndata(\"Groceries\")\ntrans <<- Groceries\n\n\n\n#' @get /Recommendation\nRecommend = function(lhs  = '', rhs = '', data = trans){\n    \n    if(lhs != '' & rhs != ''){\n        rules = apriori(data, parameter = list(sup = 0.001, conf = 0.5, target=\"rules\"), control = list(verbose=F))\n        rules = arules::sort(rules, by=\"confidence\", decreasing=TRUE)\n        df=as(rules, \"data.frame\")\n        df$recommendation  = gsub(\"}\", \"\", gsub(\" \\\\{\", '', unlist(lapply(strsplit(as.character(df$rules), '=>'), tail,1))))\n        df[1:5,]\n    } else if (lhs != '' & rhs == ''){\n        rules = apriori(data, parameter=list(supp=0.001,conf = 0.08),\n                        appearance = list(default=\"rhs\",lhs= lhs),\n                        control = list(verbose=F))\n        rules = arules::sort(rules, by=\"confidence\", decreasing=TRUE)\n        df=as(rules, \"data.frame\")\n        df$recommendation  = gsub(\"}\", \"\", gsub(\" \\\\{\", '', unlist(lapply(strsplit(as.character(df$rules), '=>'), tail,1))))\n        df[1:5,]\n    } else if(lhs == '' & rhs != ''){\n        rules<-apriori(data, parameter=list(supp=0.001,conf = 0.15,minlen=2),\n                        appearance = list(default=\"lhs\",rhs = rhs),\n                        control = list(verbose=F))\n        rules = arules::sort(rules, by=\"confidence\", decreasing=TRUE)\n        df=as(rules, \"data.frame\")\n        df$recommendation  = gsub(\"}\", \"\", gsub(\" \\\\{\", '', unlist(lapply(strsplit(as.character(df$rules), '=>'), tail,1))))\n        df[1:5,]\n    } else {\n        rules = apriori(data, parameter = list(sup = 0.001, conf = 0.5, target=\"rules\"), control = list(verbose=F))\n        rules = arules::sort(rules, by=\"confidence\", decreasing=TRUE)\n        df=as(rules, \"data.frame\")\n        df$recommendation  = gsub(\"}\", \"\", gsub(\" \\\\{\", '', unlist(lapply(strsplit(as.character(df$rules), '=>'), tail,1))))\n        df[1:5,]\n    }\n}\n",
+    "created" : 1489579258376.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1629714461",
+    "id" : "3DD0D00F",
+    "lastKnownWriteTime" : 1489588593,
+    "last_content_update" : 1489588593427,
+    "path" : "C:/R/MarketBasketAnalysis/MainREST.R",
+    "project_path" : "MainREST.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

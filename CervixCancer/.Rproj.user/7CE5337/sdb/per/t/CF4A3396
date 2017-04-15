@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "input = list()\ninput[[1]] = data.frame()\ninput[[2]] = data.frame()\n\nfor(i in 1:3){\n    result = TransposeImportImages(paste0(filepath,i), xdim, ydim)\n    input[[1]] = rbind(input[[1]],result[[1]])\n    input[[2]] = rbind(input[[2]],result[[2]])\n}\n\nfinal = data.frame()\nfor(j in 1:3){\n    for(i in 1:length(image_names[[j]])){\n        cat(i, sep=\"\\n\")\n        im = load.image(paste0(filepath, j, \"/\", image_names[[j]][i])) %>% resize(sizex, sizey)\n        plot(im) %>% grid\n        SkinDetection(im) %>% plot\n        isoblur(im, 2) %>% SkinDetection %>% plot\n            \n        im1 = grayscale(im)\n        d = as.data.frame(im)\n        d1 = as.data.frame(im1)\n        d1$cc = 4\n        temp = cbind(Name = image_names[[j]][i], Type=j, data.frame(t(rbind(d, d1)$value)))\n        final = rbind(final, temp)\n    }\n   # sqlSave(dbcon,  final, 'CervixImageData' , rownames=F, append=T)\n   # SaveResults(dbcon, final, \"CervixImageData\", batchsize = 10000)\n}\nformat(object.size(final), \"MB\")\n\ndedit = d\nddedit[dedit$value < 0.1,]=1\ndimg <- as.cimg(dedit)\nrasterImage(dimg, 0,0,32,24)\n\n\ntest3 = as.data.frame(t(test))",
+    "created" : 1489693071019.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2535660491",
+    "id" : "CF4A3396",
+    "lastKnownWriteTime" : 1491218342,
+    "last_content_update" : 1491218342205,
+    "path" : "C:/R/CervixCancer/GetImages.R",
+    "project_path" : "GetImages.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

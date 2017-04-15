@@ -1,0 +1,49 @@
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { 
+      equationNumbers: {
+ 
+            autoNumber: "all",
+            formatNumber: function (n) {return '1.'+n}
+      } 
+  }
+});
+</script>
+
+---
+title: "Stanford Machine Learning"
+author: "Warren Allworth"
+date: "March 6, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+This is a summary and high level representation of the content provided as part of the Stanford Machine Learning course from Coursera. This is a summary of the math and implementation of the Stanford Machine learning course in R and not Octave. In this summary we will look at:
+
+* Cost Function
+* Gradient Descent Method
+* Logistic Regression
+* Neural Networks
+
+## Cost Function
+
+The objective of linear regression is to minimize the cost function:
+$$ J( \theta ) = \frac{1}{2m}\sum_{i=1}^n(h_\theta(x^{(i)})-y^{(i)})^2 $$
+where the hypothesis $h_{\theta}(x)$ is given by a linear model
+
+$$h_{\theta}(x) =\theta^{T}x = \theta_0 + \theta_{1}x_{1}$$
+
+One optimization technique that can be used to solve this problem is the [Gradient Descent Method](#Gradient Descent Method) described in the next section. 
+
+Some users might already know that an analytical solution for a linear regression cost function mentioned above in the form of least squares maximum likelihood estimation. Gradient Descent Method is a broader implementation of convex optimization and has a number of applications outside of linear regression model fitting. When the number of input features is significantly large the gradient descent method might actually outpeform the least square estimator defined by 
+
+$$(X^TX)^{-1}X^{T}y$$
+
+## Gradient Descent Method
+
+## Logistic Regression
+
+## Neural Networks
+

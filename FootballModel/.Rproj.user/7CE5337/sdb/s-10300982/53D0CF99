@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(ggmap)\noptions(stringsAsFactors = FALSE)\n\n#Initialize libraries and connections\nsource(\"./init/Config.R\")\n\n#Stage all data\nsource(\"./Staging/StageWorkFlow.R\")\n\n#Load Dimensions\nsource(\"./Dimensions/PlayerDimension.R\")\n\n\n#Excel workflow\nfinal = PrepareExcelData()\n",
+    "created" : 1490994224108.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2437879897",
+    "id" : "53D0CF99",
+    "lastKnownWriteTime" : 1492012665,
+    "last_content_update" : 1492012665474,
+    "path" : "C:/R/FootballModel/Main.R",
+    "project_path" : "Main.R",
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

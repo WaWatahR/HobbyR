@@ -1,0 +1,35 @@
+---
+title: "Vector Basics"
+author: "Warren Allworth"
+date: "March 6, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Basic Vector Functionality 
+
+1. [Identity Matrix](#Identity Matrix)
+
+
+## Identity Matrix
+
+R
+```{r eval=FALSE}
+diag(5)
+```
+
+Octave\Matlab
+```{rcpp eval=FALSE}
+eye(5)
+```
+
+Python
+```{python eval=FALSE}
+import numpy as np
+np.identity(3)
+
+```
+

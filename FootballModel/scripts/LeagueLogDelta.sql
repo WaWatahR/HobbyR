@@ -1,0 +1,1 @@
+SELECT SeasonURLCode, [GameWeekID] FROM [dbo].[DimGameWeek] WHERE GameWeekSID > (SELECT ISNULL(MAX(fll.GameWeekSID),1) AS FactMaxGameWeek FROM [FantasyFootball].DBO.[FactLeagueLog] fll) AND GameWeekSID <= (SELECT MAX(gw.GameWeekSID) AS CurrentGameWeek FROM [FantasyFootball].[dbo].[DimGameWeek] gw WHERE gw.Finished = 1)

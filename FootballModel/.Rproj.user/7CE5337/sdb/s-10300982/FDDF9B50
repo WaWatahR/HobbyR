@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "PrepareExcelData = function(){\n    datasets = c(#\"http://www.football-data.co.uk/mmz4281/1617/E0.csv\", #current season\n        \"http://www.football-data.co.uk/mmz4281/1516/E0.csv\", #2015/2016\n        \"http://www.football-data.co.uk/mmz4281/1415/E0.csv\", #2014/2015\n        \"http://www.football-data.co.uk/mmz4281/1314/E0.csv\",\n        \"http://www.football-data.co.uk/mmz4281/1213/E0.csv\") \n    \n    final = data.frame()\n    for(i in length(datasets):1){\n        results = GetExcelData(datasets[i])\n        results$season = i #strsplit(datasets[i], '/')[[1]][5]\n        final = rbind(final, results)\n    }\n    final$MatchDate = as.Date(final$MatchDate, format = '%d/%m/%y')\n    final = final[!is.na(final$MatchDate),]\n    final$MatchDate = as.character(final$MatchDate)\n    # fixturelist = FixtureList()\n    # \n    # final = cbind(final, fixturelist)\n    # \n    # final$HomeTeam = as.character(final$HomeTeam)\n    # final$AwayTeam = as.character(final$AwayTeam)\n    # \n    # final$HomePoints = 0\n    # final$AwayPoints = 0 \n    # \n    # final$HomePoints[final$FullTimeHomeTeamGoals > final$FullTimeAwayTeamGoals] = 3\n    # final$AwayPoints[final$FullTimeHomeTeamGoals < final$FullTimeAwayTeamGoals] = 3\n    # final$HomePoints[final$FullTimeHomeTeamGoals == final$FullTimeAwayTeamGoals] = 1\n    # final$AwayPoints[final$FullTimeHomeTeamGoals == final$FullTimeAwayTeamGoals] = 1\n    # \n    \n    return(final)\n}\nfinal=PrepareExcelData()",
+    "created" : 1492092700674.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "966887011",
+    "id" : "FDDF9B50",
+    "lastKnownWriteTime" : 1492262407,
+    "last_content_update" : 1492262407188,
+    "path" : "C:/R/FootballModel/Dev/PrepareData.R",
+    "project_path" : "Dev/PrepareData.R",
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "headerFields =\n    c(Accept = \"text/xml\",\n      Accept = \"multipart/*\",\n      'Content-Type' = \"text/xml; charset=utf-8\",\n      SOAPAction = \"https://advertising.criteo.com/API/v201010/clientLogin\")\n\nbody = '<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n<soap:Body>\n<clientLogin xmlns=\"https://advertising.criteo.com/API/v201010\">\n<username>string</username>\n<password>string</password>\n<source>string</source>\n</clientLogin>\n</soap:Body>\n</soap:Envelope>'\n\ncurlPerform(url = \"https://advertising.criteo.com/API/v201010/AdvertiserService.asmx\",\n            httpheader = headerFields,\n            postfields = body\n)",
+    "created" : 1491231588505.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "1344429047",
+    "id" : "29F7BFB1",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1491231590958,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

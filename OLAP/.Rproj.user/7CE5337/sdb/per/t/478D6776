@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(X4R)\nlibrary(data.table)\nlibrary(RDCOMClient)\nlibrary(Hmisc)\nlibrary(plyr)\n\n#create connection to SSAS datacube\ncon <- COMCreate(\"ADODB.Connection\")\n\ncon[[\"ConnectionString\"]] <- paste(\n    \"Provider=MSOLAP\",\n    \"Data Source=localhost\",\n    \"Catalog=HelloCube\",\n    \"Persist Security Info=True\",\n    sep = \";\")\ncon$Open()\n\n# define the MDX query here:\nquery = \"SELECT { [Measures].[12 Month Order Quantity] } ON COLUMNS,  {[CD Part].[Part SID]} ON ROWS FROM [SDHAnalytical]\"\n\nrs <- COMCreate(\"ADODB.RecordSet\")\n\n# submit the MDX query to the cube\nrs$Open(query, con)\n\nrs$MoveFirst()    # move to the first row of the record set\nnc <- rs$Fields()$Count()     # define number of columns\n\n# get the data into a data array:\ndd <- vector(\"list\", length=nc)\ndd <- rs$GetRows()  # get the raw data from the results",
+    "created" : 1491311489468.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2235568365",
+    "id" : "478D6776",
+    "lastKnownWriteTime" : 1491317982,
+    "last_content_update" : 1491317982941,
+    "path" : "C:/R/OLAP/Main.R",
+    "project_path" : "Main.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

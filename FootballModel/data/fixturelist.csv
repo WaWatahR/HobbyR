@@ -1,0 +1,1521 @@
+GameWeekID,Home,Away,Year
+1,Arsenal FC,Sunderland AFC,2012
+1,Fulham FC,Norwich City,2012
+1,Queens Park Rangers,Swansea City,2012
+1,Reading FC,Stoke City,2012
+1,West Bromwich Albion,Liverpool FC,2012
+1,West Ham United,Aston Villa,2012
+1,Newcastle United,Tottenham Hotspur,2012
+1,Wigan Athletic,Chelsea FC,2012
+1,Manchester City,Southampton FC,2012
+1,Everton FC,Manchester United,2012
+2,Swansea City,West Ham United,2012
+2,Aston Villa,Everton FC,2012
+2,Manchester United,Fulham FC,2012
+2,Norwich City,Queens Park Rangers,2012
+2,Southampton FC,Wigan Athletic,2012
+2,Tottenham Hotspur,West Bromwich Albion,2012
+2,Chelsea FC,Newcastle United,2012
+2,Stoke City,Arsenal FC,2012
+2,Liverpool FC,Manchester City,2012
+2,Sunderland AFC,Reading FC,2012
+3,Chelsea FC,Reading FC,2012
+3,West Ham United,Fulham FC,2012
+3,Swansea City,Sunderland AFC,2012
+3,Tottenham Hotspur,Norwich City,2012
+3,West Bromwich Albion,Everton FC,2012
+3,Wigan Athletic,Stoke City,2012
+3,Manchester City,Queens Park Rangers,2012
+3,Liverpool FC,Arsenal FC,2012
+3,Newcastle United,Aston Villa,2012
+3,Southampton FC,Manchester United,2012
+4,Norwich City,West Ham United,2012
+4,Arsenal FC,Southampton FC,2012
+4,Aston Villa,Swansea City,2012
+4,Fulham FC,West Bromwich Albion,2012
+4,Manchester United,Wigan Athletic,2012
+4,Queens Park Rangers,Chelsea FC,2012
+4,Stoke City,Manchester City,2012
+4,Sunderland AFC,Liverpool FC,2012
+4,Reading FC,Tottenham Hotspur,2012
+4,Everton FC,Newcastle United,2012
+5,Swansea City,Everton FC,2012
+5,Chelsea FC,Stoke City,2012
+5,Southampton FC,Aston Villa,2012
+5,West Bromwich Albion,Reading FC,2012
+5,West Ham United,Sunderland AFC,2012
+5,Wigan Athletic,Fulham FC,2012
+5,Liverpool FC,Manchester United,2012
+5,Newcastle United,Norwich City,2012
+5,Manchester City,Arsenal FC,2012
+5,Tottenham Hotspur,Queens Park Rangers,2012
+6,Arsenal FC,Chelsea FC,2012
+6,Everton FC,Southampton FC,2012
+6,Fulham FC,Manchester City,2012
+6,Norwich City,Liverpool FC,2012
+6,Reading FC,Newcastle United,2012
+6,Stoke City,Swansea City,2012
+6,Sunderland AFC,Wigan Athletic,2012
+6,Manchester United,Tottenham Hotspur,2012
+6,Aston Villa,West Bromwich Albion,2012
+6,Queens Park Rangers,West Ham United,2012
+7,Manchester City,Sunderland AFC,2012
+7,Chelsea FC,Norwich City,2012
+7,Swansea City,Reading FC,2012
+7,West Bromwich Albion,Queens Park Rangers,2012
+7,Wigan Athletic,Everton FC,2012
+7,West Ham United,Arsenal FC,2012
+7,Southampton FC,Fulham FC,2012
+7,Liverpool FC,Stoke City,2012
+7,Tottenham Hotspur,Aston Villa,2012
+7,Newcastle United,Manchester United,2012
+8,Tottenham Hotspur,Chelsea FC,2012
+8,Fulham FC,Aston Villa,2012
+8,Liverpool FC,Reading FC,2012
+8,Manchester United,Stoke City,2012
+8,Swansea City,Wigan Athletic,2012
+8,West Bromwich Albion,Manchester City,2012
+8,West Ham United,Southampton FC,2012
+8,Norwich City,Arsenal FC,2012
+8,Sunderland AFC,Newcastle United,2012
+8,Queens Park Rangers,Everton FC,2012
+9,Aston Villa,Norwich City,2012
+9,Arsenal FC,Queens Park Rangers,2012
+9,Reading FC,Fulham FC,2012
+9,Stoke City,Sunderland AFC,2012
+9,Wigan Athletic,West Ham United,2012
+9,Manchester City,Swansea City,2012
+9,Everton FC,Liverpool FC,2012
+9,Newcastle United,West Bromwich Albion,2012
+9,Southampton FC,Tottenham Hotspur,2012
+9,Chelsea FC,Manchester United,2012
+10,Manchester United,Arsenal FC,2012
+10,Fulham FC,Everton FC,2012
+10,Norwich City,Stoke City,2012
+10,Sunderland AFC,Aston Villa,2012
+10,Swansea City,Chelsea FC,2012
+10,Tottenham Hotspur,Wigan Athletic,2012
+10,West Ham United,Manchester City,2012
+10,Queens Park Rangers,Reading FC,2012
+10,Liverpool FC,Newcastle United,2012
+10,West Bromwich Albion,Southampton FC,2012
+11,Arsenal FC,Fulham FC,2012
+11,Everton FC,Sunderland AFC,2012
+11,Reading FC,Norwich City,2012
+11,Southampton FC,Swansea City,2012
+11,Stoke City,Queens Park Rangers,2012
+11,Wigan Athletic,West Bromwich Albion,2012
+11,Aston Villa,Manchester United,2012
+11,Manchester City,Tottenham Hotspur,2012
+11,Newcastle United,West Ham United,2012
+11,Chelsea FC,Liverpool FC,2012
+12,Arsenal FC,Tottenham Hotspur,2012
+12,Liverpool FC,Wigan Athletic,2012
+12,Manchester City,Aston Villa,2012
+12,Newcastle United,Swansea City,2012
+12,Queens Park Rangers,Southampton FC,2012
+12,Reading FC,Everton FC,2012
+12,West Bromwich Albion,Chelsea FC,2012
+12,Norwich City,Manchester United,2012
+12,Fulham FC,Sunderland AFC,2012
+12,West Ham United,Stoke City,2012
+13,Sunderland AFC,West Bromwich Albion,2012
+13,Everton FC,Norwich City,2012
+13,Manchester United,Queens Park Rangers,2012
+13,Stoke City,Fulham FC,2012
+13,Wigan Athletic,Reading FC,2012
+13,Aston Villa,Arsenal FC,2012
+13,Swansea City,Liverpool FC,2012
+13,Southampton FC,Newcastle United,2012
+13,Chelsea FC,Manchester City,2012
+13,Tottenham Hotspur,West Ham United,2012
+14,Sunderland AFC,Queens Park Rangers,2012
+14,Aston Villa,Reading FC,2012
+14,Southampton FC,Norwich City,2012
+14,Stoke City,Newcastle United,2012
+14,Swansea City,West Bromwich Albion,2012
+14,Tottenham Hotspur,Liverpool FC,2012
+14,Chelsea FC,Fulham FC,2012
+14,Everton FC,Arsenal FC,2012
+14,Manchester United,West Ham United,2012
+14,Wigan Athletic,Manchester City,2012
+15,West Ham United,Chelsea FC,2012
+15,Arsenal FC,Swansea City,2012
+15,Fulham FC,Tottenham Hotspur,2012
+15,Liverpool FC,Southampton FC,2012
+15,Manchester City,Everton FC,2012
+15,Queens Park Rangers,Aston Villa,2012
+15,West Bromwich Albion,Stoke City,2012
+15,Reading FC,Manchester United,2012
+15,Norwich City,Sunderland AFC,2012
+15,Newcastle United,Wigan Athletic,2012
+16,Arsenal FC,West Bromwich Albion,2012
+16,Aston Villa,Stoke City,2012
+16,Southampton FC,Reading FC,2012
+16,Sunderland AFC,Chelsea FC,2012
+16,Swansea City,Norwich City,2012
+16,Wigan Athletic,Queens Park Rangers,2012
+16,Manchester City,Manchester United,2012
+16,Everton FC,Tottenham Hotspur,2012
+16,West Ham United,Liverpool FC,2012
+16,Fulham FC,Newcastle United,2012
+17,Newcastle United,Manchester City,2012
+17,Liverpool FC,Aston Villa,2012
+17,Manchester United,Sunderland AFC,2012
+17,Norwich City,Wigan Athletic,2012
+17,Queens Park Rangers,Fulham FC,2012
+17,Stoke City,Everton FC,2012
+17,Tottenham Hotspur,Swansea City,2012
+17,West Bromwich Albion,West Ham United,2012
+17,Reading FC,Arsenal FC,2012
+17,Chelsea FC,Southampton FC,2012
+18,Wigan Athletic,Arsenal FC,2012
+18,Manchester City,Reading FC,2012
+18,Newcastle United,Queens Park Rangers,2012
+18,Southampton FC,Sunderland AFC,2012
+18,Tottenham Hotspur,Stoke City,2012
+18,West Bromwich Albion,Norwich City,2012
+18,West Ham United,Everton FC,2012
+18,Liverpool FC,Fulham FC,2012
+18,Swansea City,Manchester United,2012
+18,Chelsea FC,Aston Villa,2012
+19,Everton FC,Wigan Athletic,2012
+19,Fulham FC,Southampton FC,2012
+19,Manchester United,Newcastle United,2012
+19,Norwich City,Chelsea FC,2012
+19,Queens Park Rangers,West Bromwich Albion,2012
+19,Reading FC,Swansea City,2012
+19,Sunderland AFC,Manchester City,2012
+19,Aston Villa,Tottenham Hotspur,2012
+19,Stoke City,Liverpool FC,2012
+19,Arsenal FC,West Ham United,2012
+20,Sunderland AFC,Tottenham Hotspur,2012
+20,Aston Villa,Wigan Athletic,2012
+20,Fulham FC,Swansea City,2012
+20,Manchester United,West Bromwich Albion,2012
+20,Norwich City,Manchester City,2012
+20,Reading FC,West Ham United,2012
+20,Stoke City,Southampton FC,2012
+20,Arsenal FC,Newcastle United,2012
+20,Everton FC,Chelsea FC,2012
+20,Queens Park Rangers,Liverpool FC,2012
+21,West Bromwich Albion,Fulham FC,2012
+21,Manchester City,Stoke City,2012
+21,Swansea City,Aston Villa,2012
+21,Tottenham Hotspur,Reading FC,2012
+21,West Ham United,Norwich City,2012
+21,Wigan Athletic,Manchester United,2012
+21,Southampton FC,Arsenal FC,2012
+21,Chelsea FC,Queens Park Rangers,2012
+21,Liverpool FC,Sunderland AFC,2012
+21,Newcastle United,Everton FC,2012
+22,Queens Park Rangers,Tottenham Hotspur,2012
+22,Aston Villa,Southampton FC,2012
+22,Everton FC,Swansea City,2012
+22,Fulham FC,Wigan Athletic,2012
+22,Norwich City,Newcastle United,2012
+22,Reading FC,West Bromwich Albion,2012
+22,Stoke City,Chelsea FC,2012
+22,Sunderland AFC,West Ham United,2012
+22,Manchester United,Liverpool FC,2012
+22,Arsenal FC,Manchester City,2012
+23,Liverpool FC,Norwich City,2012
+23,Manchester City,Fulham FC,2012
+23,Newcastle United,Reading FC,2012
+23,Swansea City,Stoke City,2012
+23,West Ham United,Queens Park Rangers,2012
+23,Wigan Athletic,Sunderland AFC,2012
+23,West Bromwich Albion,Aston Villa,2012
+23,Chelsea FC,Arsenal FC,2012
+23,Tottenham Hotspur,Manchester United,2012
+23,Southampton FC,Everton FC,2012
+24,Aston Villa,Newcastle United,2012
+24,Queens Park Rangers,Manchester City,2012
+24,Stoke City,Wigan Athletic,2012
+24,Sunderland AFC,Swansea City,2012
+24,Arsenal FC,Liverpool FC,2012
+24,Norwich City,Tottenham Hotspur,2012
+24,Everton FC,West Bromwich Albion,2012
+24,Manchester United,Southampton FC,2012
+24,Reading FC,Chelsea FC,2012
+24,Fulham FC,West Ham United,2012
+25,Queens Park Rangers,Norwich City,2012
+25,Arsenal FC,Stoke City,2012
+25,Everton FC,Aston Villa,2012
+25,Newcastle United,Chelsea FC,2012
+25,Reading FC,Sunderland AFC,2012
+25,West Ham United,Swansea City,2012
+25,Wigan Athletic,Southampton FC,2012
+25,Fulham FC,Manchester United,2012
+25,West Bromwich Albion,Tottenham Hotspur,2012
+25,Manchester City,Liverpool FC,2012
+26,Tottenham Hotspur,Newcastle United,2012
+26,Chelsea FC,Wigan Athletic,2012
+26,Norwich City,Fulham FC,2012
+26,Stoke City,Reading FC,2012
+26,Sunderland AFC,Arsenal FC,2012
+26,Swansea City,Queens Park Rangers,2012
+26,Southampton FC,Manchester City,2012
+26,Aston Villa,West Ham United,2012
+26,Manchester United,Everton FC,2012
+26,Liverpool FC,West Bromwich Albion,2012
+27,Liverpool FC,Swansea City,2012
+27,Fulham FC,Stoke City,2012
+27,Arsenal FC,Aston Villa,2012
+27,Norwich City,Everton FC,2012
+27,Queens Park Rangers,Manchester United,2012
+27,Reading FC,Wigan Athletic,2012
+27,West Bromwich Albion,Sunderland AFC,2012
+27,Manchester City,Chelsea FC,2012
+27,Newcastle United,Southampton FC,2012
+27,West Ham United,Tottenham Hotspur,2012
+28,Chelsea FC,West Bromwich Albion,2012
+28,Everton FC,Reading FC,2012
+28,Manchester United,Norwich City,2012
+28,Southampton FC,Queens Park Rangers,2012
+28,Stoke City,West Ham United,2012
+28,Sunderland AFC,Fulham FC,2012
+28,Swansea City,Newcastle United,2012
+28,Wigan Athletic,Liverpool FC,2012
+28,Tottenham Hotspur,Arsenal FC,2012
+28,Aston Villa,Manchester City,2012
+29,Norwich City,Southampton FC,2012
+29,Queens Park Rangers,Sunderland AFC,2012
+29,Reading FC,Aston Villa,2012
+29,West Bromwich Albion,Swansea City,2012
+29,Newcastle United,Stoke City,2012
+29,Liverpool FC,Tottenham Hotspur,2012
+29,Arsenal FC,Everton FC,2012
+29,Manchester City,Wigan Athletic,2012
+29,West Ham United,Manchester United,2012
+29,Fulham FC,Chelsea FC,2012
+30,Everton FC,Manchester City,2012
+30,Aston Villa,Queens Park Rangers,2012
+30,Southampton FC,Liverpool FC,2012
+30,Stoke City,West Bromwich Albion,2012
+30,Swansea City,Arsenal FC,2012
+30,Manchester United,Reading FC,2012
+30,Sunderland AFC,Norwich City,2012
+30,Tottenham Hotspur,Fulham FC,2012
+30,Chelsea FC,West Ham United,2012
+30,Wigan Athletic,Newcastle United,2012
+31,Sunderland AFC,Manchester United,2012
+31,Arsenal FC,Reading FC,2012
+31,Manchester City,Newcastle United,2012
+31,Southampton FC,Chelsea FC,2012
+31,Swansea City,Tottenham Hotspur,2012
+31,West Ham United,West Bromwich Albion,2012
+31,Wigan Athletic,Norwich City,2012
+31,Everton FC,Stoke City,2012
+31,Aston Villa,Liverpool FC,2012
+31,Fulham FC,Queens Park Rangers,2012
+32,Reading FC,Southampton FC,2012
+32,Norwich City,Swansea City,2012
+32,Stoke City,Aston Villa,2012
+32,West Bromwich Albion,Arsenal FC,2012
+32,Liverpool FC,West Ham United,2012
+32,Tottenham Hotspur,Everton FC,2012
+32,Chelsea FC,Sunderland AFC,2012
+32,Newcastle United,Fulham FC,2012
+32,Queens Park Rangers,Wigan Athletic,2012
+32,Manchester United,Manchester City,2012
+33,Arsenal FC,Norwich City,2012
+33,Aston Villa,Fulham FC,2012
+33,Everton FC,Queens Park Rangers,2012
+33,Reading FC,Liverpool FC,2012
+33,Southampton FC,West Ham United,2012
+33,Newcastle United,Sunderland AFC,2012
+33,Stoke City,Manchester United,2012
+33,Manchester City,West Bromwich Albion,2012
+33,Wigan Athletic,Swansea City,2012
+33,Chelsea FC,Tottenham Hotspur,2012
+34,Fulham FC,Arsenal FC,2012
+34,Norwich City,Reading FC,2012
+34,Queens Park Rangers,Stoke City,2012
+34,Sunderland AFC,Everton FC,2012
+34,Swansea City,Southampton FC,2012
+34,West Bromwich Albion,Newcastle United,2012
+34,West Ham United,Wigan Athletic,2012
+34,Tottenham Hotspur,Manchester City,2012
+34,Liverpool FC,Chelsea FC,2012
+34,Manchester United,Aston Villa,2012
+35,Manchester City,West Ham United,2012
+35,Everton FC,Fulham FC,2012
+35,Southampton FC,West Bromwich Albion,2012
+35,Stoke City,Norwich City,2012
+35,Wigan Athletic,Tottenham Hotspur,2012
+35,Newcastle United,Liverpool FC,2012
+35,Reading FC,Queens Park Rangers,2012
+35,Chelsea FC,Swansea City,2012
+35,Arsenal FC,Manchester United,2012
+35,Aston Villa,Sunderland AFC,2012
+36,Fulham FC,Reading FC,2012
+36,Norwich City,Aston Villa,2012
+36,Swansea City,Manchester City,2012
+36,West Bromwich Albion,Wigan Athletic,2012
+36,West Ham United,Newcastle United,2012
+36,Tottenham Hotspur,Southampton FC,2012
+36,Queens Park Rangers,Arsenal FC,2012
+36,Liverpool FC,Everton FC,2012
+36,Manchester United,Chelsea FC,2012
+36,Sunderland AFC,Stoke City,2012
+37,Aston Villa,Chelsea FC,2012
+37,Stoke City,Tottenham Hotspur,2012
+37,Everton FC,West Ham United,2012
+37,Fulham FC,Liverpool FC,2012
+37,Norwich City,West Bromwich Albion,2012
+37,Queens Park Rangers,Newcastle United,2012
+37,Sunderland AFC,Southampton FC,2012
+37,Manchester United,Swansea City,2012
+37,Arsenal FC,Wigan Athletic,2012
+37,Reading FC,Manchester City,2012
+38,Chelsea FC,Everton FC,2012
+38,Liverpool FC,Queens Park Rangers,2012
+38,Manchester City,Norwich City,2012
+38,Newcastle United,Arsenal FC,2012
+38,Southampton FC,Stoke City,2012
+38,Swansea City,Fulham FC,2012
+38,Tottenham Hotspur,Sunderland AFC,2012
+38,West Bromwich Albion,Manchester United,2012
+38,West Ham United,Reading FC,2012
+38,Wigan Athletic,Aston Villa,2012
+1,Liverpool FC,Stoke City,2013
+1,Arsenal FC,Aston Villa,2013
+1,Norwich City,Everton FC,2013
+1,Sunderland AFC,Fulham FC,2013
+1,West Bromwich Albion,Southampton FC,2013
+1,West Ham United,Cardiff City,2013
+1,Swansea City,Manchester United,2013
+1,Crystal Palace,Tottenham Hotspur,2013
+1,Chelsea FC,Hull City,2013
+1,Manchester City,Newcastle United,2013
+2,Fulham FC,Arsenal FC,2013
+2,Everton FC,West Bromwich Albion,2013
+2,Hull City,Norwich City,2013
+2,Newcastle United,West Ham United,2013
+2,Southampton FC,Sunderland AFC,2013
+2,Stoke City,Crystal Palace,2013
+2,Aston Villa,Liverpool FC,2013
+2,Cardiff City,Manchester City,2013
+2,Tottenham Hotspur,Swansea City,2013
+2,Manchester United,Chelsea FC,2013
+3,Chelsea FC,Aston Villa,2013
+3,Manchester City,Hull City,2013
+3,Cardiff City,Everton FC,2013
+3,Newcastle United,Fulham FC,2013
+3,Norwich City,Southampton FC,2013
+3,West Ham United,Stoke City,2013
+3,Crystal Palace,Sunderland AFC,2013
+3,Liverpool FC,Manchester United,2013
+3,West Bromwich Albion,Swansea City,2013
+3,Arsenal FC,Tottenham Hotspur,2013
+4,Manchester United,Crystal Palace,2013
+4,Aston Villa,Newcastle United,2013
+4,Fulham FC,West Bromwich Albion,2013
+4,Hull City,Cardiff City,2013
+4,Stoke City,Manchester City,2013
+4,Sunderland AFC,Arsenal FC,2013
+4,Tottenham Hotspur,Norwich City,2013
+4,Everton FC,Chelsea FC,2013
+4,Southampton FC,West Ham United,2013
+4,Swansea City,Liverpool FC,2013
+5,Norwich City,Aston Villa,2013
+5,Liverpool FC,Southampton FC,2013
+5,Newcastle United,Hull City,2013
+5,West Bromwich Albion,Sunderland AFC,2013
+5,West Ham United,Everton FC,2013
+5,Chelsea FC,Fulham FC,2013
+5,Arsenal FC,Stoke City,2013
+5,Crystal Palace,Swansea City,2013
+5,Cardiff City,Tottenham Hotspur,2013
+5,Manchester City,Manchester United,2013
+6,Tottenham Hotspur,Chelsea FC,2013
+6,Aston Villa,Manchester City,2013
+6,Fulham FC,Cardiff City,2013
+6,Hull City,West Ham United,2013
+6,Manchester United,West Bromwich Albion,2013
+6,Southampton FC,Crystal Palace,2013
+6,Swansea City,Arsenal FC,2013
+6,Stoke City,Norwich City,2013
+6,Sunderland AFC,Liverpool FC,2013
+6,Everton FC,Newcastle United,2013
+7,Manchester City,Everton FC,2013
+7,Cardiff City,Newcastle United,2013
+7,Fulham FC,Stoke City,2013
+7,Hull City,Aston Villa,2013
+7,Liverpool FC,Crystal Palace,2013
+7,Sunderland AFC,Manchester United,2013
+7,Norwich City,Chelsea FC,2013
+7,Southampton FC,Swansea City,2013
+7,Tottenham Hotspur,West Ham United,2013
+7,West Bromwich Albion,Arsenal FC,2013
+8,Newcastle United,Liverpool FC,2013
+8,Arsenal FC,Norwich City,2013
+8,Chelsea FC,Cardiff City,2013
+8,Everton FC,Hull City,2013
+8,Manchester United,Southampton FC,2013
+8,Stoke City,West Bromwich Albion,2013
+8,Swansea City,Sunderland AFC,2013
+8,West Ham United,Manchester City,2013
+8,Aston Villa,Tottenham Hotspur,2013
+8,Crystal Palace,Fulham FC,2013
+9,Crystal Palace,Arsenal FC,2013
+9,Aston Villa,Everton FC,2013
+9,Liverpool FC,West Bromwich Albion,2013
+9,Manchester United,Stoke City,2013
+9,Norwich City,Cardiff City,2013
+9,Southampton FC,Fulham FC,2013
+9,Sunderland AFC,Newcastle United,2013
+9,Chelsea FC,Manchester City,2013
+9,Swansea City,West Ham United,2013
+9,Tottenham Hotspur,Hull City,2013
+10,Newcastle United,Chelsea FC,2013
+10,Fulham FC,Manchester United,2013
+10,Hull City,Sunderland AFC,2013
+10,Manchester City,Norwich City,2013
+10,Stoke City,Southampton FC,2013
+10,West Bromwich Albion,Crystal Palace,2013
+10,West Ham United,Aston Villa,2013
+10,Arsenal FC,Liverpool FC,2013
+10,Everton FC,Tottenham Hotspur,2013
+10,Cardiff City,Swansea City,2013
+11,Aston Villa,Cardiff City,2013
+11,Chelsea FC,West Bromwich Albion,2013
+11,Crystal Palace,Everton FC,2013
+11,Liverpool FC,Fulham FC,2013
+11,Southampton FC,Hull City,2013
+11,Norwich City,West Ham United,2013
+11,Tottenham Hotspur,Newcastle United,2013
+11,Sunderland AFC,Manchester City,2013
+11,Manchester United,Arsenal FC,2013
+11,Swansea City,Stoke City,2013
+12,Everton FC,Liverpool FC,2013
+12,Arsenal FC,Southampton FC,2013
+12,Fulham FC,Swansea City,2013
+12,Hull City,Crystal Palace,2013
+12,Newcastle United,Norwich City,2013
+12,Stoke City,Sunderland AFC,2013
+12,West Ham United,Chelsea FC,2013
+12,Manchester City,Tottenham Hotspur,2013
+12,Cardiff City,Manchester United,2013
+12,West Bromwich Albion,Aston Villa,2013
+13,Aston Villa,Sunderland AFC,2013
+13,Cardiff City,Arsenal FC,2013
+13,Everton FC,Stoke City,2013
+13,Norwich City,Crystal Palace,2013
+13,West Ham United,Fulham FC,2013
+13,Newcastle United,West Bromwich Albion,2013
+13,Tottenham Hotspur,Manchester United,2013
+13,Hull City,Liverpool FC,2013
+13,Chelsea FC,Southampton FC,2013
+13,Manchester City,Swansea City,2013
+14,Crystal Palace,West Ham United,2013
+14,Arsenal FC,Hull City,2013
+14,Liverpool FC,Norwich City,2013
+14,Manchester United,Everton FC,2013
+14,Southampton FC,Aston Villa,2013
+14,Stoke City,Cardiff City,2013
+14,Sunderland AFC,Chelsea FC,2013
+14,Swansea City,Newcastle United,2013
+14,West Bromwich Albion,Manchester City,2013
+14,Fulham FC,Tottenham Hotspur,2013
+15,Manchester United,Newcastle United,2013
+15,Crystal Palace,Cardiff City,2013
+15,Liverpool FC,West Ham United,2013
+15,Southampton FC,Manchester City,2013
+15,Stoke City,Chelsea FC,2013
+15,West Bromwich Albion,Norwich City,2013
+15,Sunderland AFC,Tottenham Hotspur,2013
+15,Fulham FC,Aston Villa,2013
+15,Arsenal FC,Everton FC,2013
+15,Swansea City,Hull City,2013
+16,Manchester City,Arsenal FC,2013
+16,Cardiff City,West Bromwich Albion,2013
+16,Chelsea FC,Crystal Palace,2013
+16,Everton FC,Fulham FC,2013
+16,Newcastle United,Southampton FC,2013
+16,West Ham United,Sunderland AFC,2013
+16,Hull City,Stoke City,2013
+16,Aston Villa,Manchester United,2013
+16,Norwich City,Swansea City,2013
+16,Tottenham Hotspur,Liverpool FC,2013
+17,Liverpool FC,Cardiff City,2013
+17,Crystal Palace,Newcastle United,2013
+17,Fulham FC,Manchester City,2013
+17,Manchester United,West Ham United,2013
+17,Stoke City,Aston Villa,2013
+17,Sunderland AFC,Norwich City,2013
+17,West Bromwich Albion,Hull City,2013
+17,Southampton FC,Tottenham Hotspur,2013
+17,Swansea City,Everton FC,2013
+17,Arsenal FC,Chelsea FC,2013
+18,Hull City,Manchester United,2013
+18,Aston Villa,Crystal Palace,2013
+18,Cardiff City,Southampton FC,2013
+18,Chelsea FC,Swansea City,2013
+18,Everton FC,Sunderland AFC,2013
+18,Newcastle United,Stoke City,2013
+18,Norwich City,Fulham FC,2013
+18,Tottenham Hotspur,West Bromwich Albion,2013
+18,West Ham United,Arsenal FC,2013
+18,Manchester City,Liverpool FC,2013
+19,West Ham United,West Bromwich Albion,2013
+19,Aston Villa,Swansea City,2013
+19,Hull City,Fulham FC,2013
+19,Manchester City,Crystal Palace,2013
+19,Norwich City,Manchester United,2013
+19,Cardiff City,Sunderland AFC,2013
+19,Everton FC,Southampton FC,2013
+19,Newcastle United,Arsenal FC,2013
+19,Chelsea FC,Liverpool FC,2013
+19,Tottenham Hotspur,Stoke City,2013
+20,Swansea City,Manchester City,2013
+20,Arsenal FC,Cardiff City,2013
+20,Crystal Palace,Norwich City,2013
+20,Fulham FC,West Ham United,2013
+20,Liverpool FC,Hull City,2013
+20,Southampton FC,Chelsea FC,2013
+20,Stoke City,Everton FC,2013
+20,Sunderland AFC,Aston Villa,2013
+20,West Bromwich Albion,Newcastle United,2013
+20,Manchester United,Tottenham Hotspur,2013
+21,Hull City,Chelsea FC,2013
+21,Cardiff City,West Ham United,2013
+21,Everton FC,Norwich City,2013
+21,Fulham FC,Sunderland AFC,2013
+21,Southampton FC,West Bromwich Albion,2013
+21,Tottenham Hotspur,Crystal Palace,2013
+21,Manchester United,Swansea City,2013
+21,Newcastle United,Manchester City,2013
+21,Stoke City,Liverpool FC,2013
+21,Aston Villa,Arsenal FC,2013
+22,Sunderland AFC,Southampton FC,2013
+22,Manchester City,Cardiff City,2013
+22,Arsenal FC,Fulham FC,2013
+22,Norwich City,Hull City,2013
+22,West Ham United,Newcastle United,2013
+22,Crystal Palace,Stoke City,2013
+22,Liverpool FC,Aston Villa,2013
+22,Swansea City,Tottenham Hotspur,2013
+22,Chelsea FC,Manchester United,2013
+22,West Bromwich Albion,Everton FC,2013
+23,Manchester United,Cardiff City,2013
+23,Norwich City,Newcastle United,2013
+23,Southampton FC,Arsenal FC,2013
+23,Swansea City,Fulham FC,2013
+23,Crystal Palace,Hull City,2013
+23,Liverpool FC,Everton FC,2013
+23,Aston Villa,West Bromwich Albion,2013
+23,Sunderland AFC,Stoke City,2013
+23,Chelsea FC,West Ham United,2013
+23,Tottenham Hotspur,Manchester City,2013
+24,Newcastle United,Sunderland AFC,2013
+24,West Ham United,Swansea City,2013
+24,Everton FC,Aston Villa,2013
+24,Stoke City,Manchester United,2013
+24,Cardiff City,Norwich City,2013
+24,Fulham FC,Southampton FC,2013
+24,Hull City,Tottenham Hotspur,2013
+24,West Bromwich Albion,Liverpool FC,2013
+24,Arsenal FC,Crystal Palace,2013
+24,Manchester City,Chelsea FC,2013
+25,Liverpool FC,Arsenal FC,2013
+25,Aston Villa,West Ham United,2013
+25,Chelsea FC,Newcastle United,2013
+25,Crystal Palace,West Bromwich Albion,2013
+25,Norwich City,Manchester City,2013
+25,Southampton FC,Stoke City,2013
+25,Sunderland AFC,Hull City,2013
+25,Swansea City,Cardiff City,2013
+25,Tottenham Hotspur,Everton FC,2013
+25,Manchester United,Fulham FC,2013
+26,Cardiff City,Aston Villa,2013
+26,West Ham United,Norwich City,2013
+26,Hull City,Southampton FC,2013
+26,West Bromwich Albion,Chelsea FC,2013
+26,Arsenal FC,Manchester United,2013
+26,Newcastle United,Tottenham Hotspur,2013
+26,Fulham FC,Liverpool FC,2013
+26,Stoke City,Swansea City,2013
+26,Everton FC,Crystal Palace,2013
+26,Manchester City,Sunderland AFC,2013
+27,Chelsea FC,Everton FC,2013
+27,Arsenal FC,Sunderland AFC,2013
+27,Cardiff City,Hull City,2013
+27,Manchester City,Stoke City,2013
+27,West Bromwich Albion,Fulham FC,2013
+27,West Ham United,Southampton FC,2013
+27,Crystal Palace,Manchester United,2013
+27,Liverpool FC,Swansea City,2013
+27,Newcastle United,Aston Villa,2013
+27,Norwich City,Tottenham Hotspur,2013
+28,Stoke City,Arsenal FC,2013
+28,Fulham FC,Chelsea FC,2013
+28,Hull City,Newcastle United,2013
+28,Everton FC,West Ham United,2013
+28,Southampton FC,Liverpool FC,2013
+28,Tottenham Hotspur,Cardiff City,2013
+28,Swansea City,Crystal Palace,2013
+28,Aston Villa,Norwich City,2013
+28,Manchester United,Manchester City,2013
+28,Sunderland AFC,West Bromwich Albion,2013
+29,West Bromwich Albion,Manchester United,2013
+29,Cardiff City,Fulham FC,2013
+29,Crystal Palace,Southampton FC,2013
+29,Norwich City,Stoke City,2013
+29,Chelsea FC,Tottenham Hotspur,2013
+29,Arsenal FC,Swansea City,2013
+29,Newcastle United,Everton FC,2013
+29,West Ham United,Hull City,2013
+29,Liverpool FC,Sunderland AFC,2013
+29,Manchester City,Aston Villa,2013
+30,Hull City,Manchester City,2013
+30,Everton FC,Cardiff City,2013
+30,Sunderland AFC,Crystal Palace,2013
+30,Fulham FC,Newcastle United,2013
+30,Southampton FC,Norwich City,2013
+30,Swansea City,West Bromwich Albion,2013
+30,Stoke City,West Ham United,2013
+30,Aston Villa,Chelsea FC,2013
+30,Manchester United,Liverpool FC,2013
+30,Tottenham Hotspur,Arsenal FC,2013
+31,Chelsea FC,Arsenal FC,2013
+31,Cardiff City,Liverpool FC,2013
+31,Everton FC,Swansea City,2013
+31,Hull City,West Bromwich Albion,2013
+31,Manchester City,Fulham FC,2013
+31,Newcastle United,Crystal Palace,2013
+31,Norwich City,Sunderland AFC,2013
+31,West Ham United,Manchester United,2013
+31,Tottenham Hotspur,Southampton FC,2013
+31,Aston Villa,Stoke City,2013
+32,Manchester United,Aston Villa,2013
+32,West Bromwich Albion,Cardiff City,2013
+32,Crystal Palace,Chelsea FC,2013
+32,Stoke City,Hull City,2013
+32,Southampton FC,Newcastle United,2013
+32,Swansea City,Norwich City,2013
+32,Arsenal FC,Manchester City,2013
+32,Fulham FC,Everton FC,2013
+32,Liverpool FC,Tottenham Hotspur,2013
+32,Sunderland AFC,West Ham United,2013
+33,Manchester City,Southampton FC,2013
+33,Aston Villa,Fulham FC,2013
+33,Cardiff City,Crystal Palace,2013
+33,Hull City,Swansea City,2013
+33,Newcastle United,Manchester United,2013
+33,Norwich City,West Bromwich Albion,2013
+33,Chelsea FC,Stoke City,2013
+33,Everton FC,Arsenal FC,2013
+33,West Ham United,Liverpool FC,2013
+33,Tottenham Hotspur,Sunderland AFC,2013
+34,Crystal Palace,Aston Villa,2013
+34,Southampton FC,Cardiff City,2013
+34,Sunderland AFC,Everton FC,2013
+34,Stoke City,Newcastle United,2013
+34,Fulham FC,Norwich City,2013
+34,West Bromwich Albion,Tottenham Hotspur,2013
+34,Liverpool FC,Manchester City,2013
+34,Swansea City,Chelsea FC,2013
+34,Arsenal FC,West Ham United,2013
+34,Manchester United,Hull City,2013
+35,Tottenham Hotspur,Fulham FC,2013
+35,Aston Villa,Southampton FC,2013
+35,Cardiff City,Stoke City,2013
+35,Newcastle United,Swansea City,2013
+35,West Ham United,Crystal Palace,2013
+35,Chelsea FC,Sunderland AFC,2013
+35,Norwich City,Liverpool FC,2013
+35,Hull City,Arsenal FC,2013
+35,Everton FC,Manchester United,2013
+35,Manchester City,West Bromwich Albion,2013
+36,Southampton FC,Everton FC,2013
+36,Swansea City,Aston Villa,2013
+36,Fulham FC,Hull City,2013
+36,Stoke City,Tottenham Hotspur,2013
+36,West Bromwich Albion,West Ham United,2013
+36,Manchester United,Norwich City,2013
+36,Sunderland AFC,Cardiff City,2013
+36,Liverpool FC,Chelsea FC,2013
+36,Crystal Palace,Manchester City,2013
+36,Arsenal FC,Newcastle United,2013
+37,West Ham United,Tottenham Hotspur,2013
+37,Aston Villa,Hull City,2013
+37,Manchester United,Sunderland AFC,2013
+37,Newcastle United,Cardiff City,2013
+37,Stoke City,Fulham FC,2013
+37,Swansea City,Southampton FC,2013
+37,Everton FC,Manchester City,2013
+37,Arsenal FC,West Bromwich Albion,2013
+37,Chelsea FC,Norwich City,2013
+37,Crystal Palace,Liverpool FC,2013
+38,Cardiff City,Chelsea FC,2013
+38,Fulham FC,Crystal Palace,2013
+38,Hull City,Everton FC,2013
+38,Liverpool FC,Newcastle United,2013
+38,Manchester City,West Ham United,2013
+38,Norwich City,Arsenal FC,2013
+38,Southampton FC,Manchester United,2013
+38,Sunderland AFC,Swansea City,2013
+38,Tottenham Hotspur,Aston Villa,2013
+38,West Bromwich Albion,Stoke City,2013
+1,Manchester United,Swansea City,2014
+1,Leicester City,Everton FC,2014
+1,Queens Park Rangers,Hull City,2014
+1,Stoke City,Aston Villa,2014
+1,West Bromwich Albion,Sunderland AFC,2014
+1,West Ham United,Tottenham Hotspur,2014
+1,Arsenal FC,Crystal Palace,2014
+1,Liverpool FC,Southampton FC,2014
+1,Newcastle United,Manchester City,2014
+1,Burnley FC,Chelsea FC,2014
+2,Aston Villa,Newcastle United,2014
+2,Chelsea FC,Leicester City,2014
+2,Crystal Palace,West Ham United,2014
+2,Southampton FC,West Bromwich Albion,2014
+2,Swansea City,Burnley FC,2014
+2,Everton FC,Arsenal FC,2014
+2,Hull City,Stoke City,2014
+2,Tottenham Hotspur,Queens Park Rangers,2014
+2,Sunderland AFC,Manchester United,2014
+2,Manchester City,Liverpool FC,2014
+3,Burnley FC,Manchester United,2014
+3,Manchester City,Stoke City,2014
+3,Newcastle United,Crystal Palace,2014
+3,Queens Park Rangers,Sunderland AFC,2014
+3,Swansea City,West Bromwich Albion,2014
+3,West Ham United,Southampton FC,2014
+3,Everton FC,Chelsea FC,2014
+3,Aston Villa,Hull City,2014
+3,Tottenham Hotspur,Liverpool FC,2014
+3,Leicester City,Arsenal FC,2014
+4,Arsenal FC,Manchester City,2014
+4,Chelsea FC,Swansea City,2014
+4,Crystal Palace,Burnley FC,2014
+4,Southampton FC,Newcastle United,2014
+4,Stoke City,Leicester City,2014
+4,Sunderland AFC,Tottenham Hotspur,2014
+4,West Bromwich Albion,Everton FC,2014
+4,Liverpool FC,Aston Villa,2014
+4,Manchester United,Queens Park Rangers,2014
+4,Hull City,West Ham United,2014
+5,Queens Park Rangers,Stoke City,2014
+5,Aston Villa,Arsenal FC,2014
+5,Burnley FC,Sunderland AFC,2014
+5,Newcastle United,Hull City,2014
+5,Swansea City,Southampton FC,2014
+5,West Ham United,Liverpool FC,2014
+5,Leicester City,Manchester United,2014
+5,Tottenham Hotspur,West Bromwich Albion,2014
+5,Everton FC,Crystal Palace,2014
+5,Manchester City,Chelsea FC,2014
+6,Liverpool FC,Everton FC,2014
+6,Chelsea FC,Aston Villa,2014
+6,Crystal Palace,Leicester City,2014
+6,Hull City,Manchester City,2014
+6,Manchester United,West Ham United,2014
+6,Southampton FC,Queens Park Rangers,2014
+6,Sunderland AFC,Swansea City,2014
+6,Arsenal FC,Tottenham Hotspur,2014
+6,West Bromwich Albion,Burnley FC,2014
+6,Stoke City,Newcastle United,2014
+7,Hull City,Crystal Palace,2014
+7,Leicester City,Burnley FC,2014
+7,Liverpool FC,West Bromwich Albion,2014
+7,Sunderland AFC,Stoke City,2014
+7,Swansea City,Newcastle United,2014
+7,Aston Villa,Manchester City,2014
+7,Manchester United,Everton FC,2014
+7,Tottenham Hotspur,Southampton FC,2014
+7,Chelsea FC,Arsenal FC,2014
+7,West Ham United,Queens Park Rangers,2014
+8,Manchester City,Tottenham Hotspur,2014
+8,Arsenal FC,Hull City,2014
+8,Burnley FC,West Ham United,2014
+8,Crystal Palace,Chelsea FC,2014
+8,Everton FC,Aston Villa,2014
+8,Southampton FC,Sunderland AFC,2014
+8,Newcastle United,Leicester City,2014
+8,Queens Park Rangers,Liverpool FC,2014
+8,Stoke City,Swansea City,2014
+8,West Bromwich Albion,Manchester United,2014
+9,West Ham United,Manchester City,2014
+9,Liverpool FC,Hull City,2014
+9,Southampton FC,Stoke City,2014
+9,Sunderland AFC,Arsenal FC,2014
+9,West Bromwich Albion,Crystal Palace,2014
+9,Swansea City,Leicester City,2014
+9,Burnley FC,Everton FC,2014
+9,Tottenham Hotspur,Newcastle United,2014
+9,Manchester United,Chelsea FC,2014
+9,Queens Park Rangers,Aston Villa,2014
+10,Newcastle United,Liverpool FC,2014
+10,Arsenal FC,Burnley FC,2014
+10,Chelsea FC,Queens Park Rangers,2014
+10,Everton FC,Swansea City,2014
+10,Hull City,Southampton FC,2014
+10,Leicester City,West Bromwich Albion,2014
+10,Stoke City,West Ham United,2014
+10,Manchester City,Manchester United,2014
+10,Aston Villa,Tottenham Hotspur,2014
+10,Crystal Palace,Sunderland AFC,2014
+11,Liverpool FC,Chelsea FC,2014
+11,Burnley FC,Hull City,2014
+11,Manchester United,Crystal Palace,2014
+11,Southampton FC,Leicester City,2014
+11,West Ham United,Aston Villa,2014
+11,Queens Park Rangers,Manchester City,2014
+11,Sunderland AFC,Everton FC,2014
+11,Tottenham Hotspur,Stoke City,2014
+11,West Bromwich Albion,Newcastle United,2014
+11,Swansea City,Arsenal FC,2014
+12,Chelsea FC,West Bromwich Albion,2014
+12,Everton FC,West Ham United,2014
+12,Leicester City,Sunderland AFC,2014
+12,Manchester City,Swansea City,2014
+12,Newcastle United,Queens Park Rangers,2014
+12,Stoke City,Burnley FC,2014
+12,Arsenal FC,Manchester United,2014
+12,Crystal Palace,Liverpool FC,2014
+12,Hull City,Tottenham Hotspur,2014
+12,Aston Villa,Southampton FC,2014
+13,West Bromwich Albion,Arsenal FC,2014
+13,Burnley FC,Aston Villa,2014
+13,Liverpool FC,Stoke City,2014
+13,Manchester United,Hull City,2014
+13,Queens Park Rangers,Leicester City,2014
+13,Swansea City,Crystal Palace,2014
+13,West Ham United,Newcastle United,2014
+13,Sunderland AFC,Chelsea FC,2014
+13,Southampton FC,Manchester City,2014
+13,Tottenham Hotspur,Everton FC,2014
+14,Burnley FC,Newcastle United,2014
+14,Leicester City,Liverpool FC,2014
+14,Manchester United,Stoke City,2014
+14,Swansea City,Queens Park Rangers,2014
+14,Crystal Palace,Aston Villa,2014
+14,West Bromwich Albion,West Ham United,2014
+14,Arsenal FC,Southampton FC,2014
+14,Chelsea FC,Tottenham Hotspur,2014
+14,Everton FC,Hull City,2014
+14,Sunderland AFC,Manchester City,2014
+15,Newcastle United,Chelsea FC,2014
+15,Hull City,West Bromwich Albion,2014
+15,Liverpool FC,Sunderland AFC,2014
+15,Queens Park Rangers,Burnley FC,2014
+15,Stoke City,Arsenal FC,2014
+15,Tottenham Hotspur,Crystal Palace,2014
+15,Manchester City,Everton FC,2014
+15,West Ham United,Swansea City,2014
+15,Aston Villa,Leicester City,2014
+15,Southampton FC,Manchester United,2014
+16,Burnley FC,Southampton FC,2014
+16,Chelsea FC,Hull City,2014
+16,Crystal Palace,Stoke City,2014
+16,Leicester City,Manchester City,2014
+16,Sunderland AFC,West Ham United,2014
+16,West Bromwich Albion,Aston Villa,2014
+16,Arsenal FC,Newcastle United,2014
+16,Manchester United,Liverpool FC,2014
+16,Swansea City,Tottenham Hotspur,2014
+16,Everton FC,Queens Park Rangers,2014
+17,Manchester City,Crystal Palace,2014
+17,Aston Villa,Manchester United,2014
+17,Hull City,Swansea City,2014
+17,Queens Park Rangers,West Bromwich Albion,2014
+17,Southampton FC,Everton FC,2014
+17,Tottenham Hotspur,Burnley FC,2014
+17,West Ham United,Leicester City,2014
+17,Newcastle United,Sunderland AFC,2014
+17,Liverpool FC,Arsenal FC,2014
+17,Stoke City,Chelsea FC,2014
+18,Chelsea FC,West Ham United,2014
+18,Burnley FC,Liverpool FC,2014
+18,Crystal Palace,Southampton FC,2014
+18,Everton FC,Stoke City,2014
+18,Leicester City,Tottenham Hotspur,2014
+18,Manchester United,Newcastle United,2014
+18,Sunderland AFC,Hull City,2014
+18,Swansea City,Aston Villa,2014
+18,West Bromwich Albion,Manchester City,2014
+18,Arsenal FC,Queens Park Rangers,2014
+19,Tottenham Hotspur,Manchester United,2014
+19,Southampton FC,Chelsea FC,2014
+19,Aston Villa,Sunderland AFC,2014
+19,Hull City,Leicester City,2014
+19,Manchester City,Burnley FC,2014
+19,Queens Park Rangers,Crystal Palace,2014
+19,Stoke City,West Bromwich Albion,2014
+19,West Ham United,Arsenal FC,2014
+19,Newcastle United,Everton FC,2014
+19,Liverpool FC,Swansea City,2014
+20,Stoke City,Manchester United,2014
+20,Aston Villa,Crystal Palace,2014
+20,Hull City,Everton FC,2014
+20,Liverpool FC,Leicester City,2014
+20,Manchester City,Sunderland AFC,2014
+20,Newcastle United,Burnley FC,2014
+20,Queens Park Rangers,Swansea City,2014
+20,Southampton FC,Arsenal FC,2014
+20,West Ham United,West Bromwich Albion,2014
+20,Tottenham Hotspur,Chelsea FC,2014
+21,Sunderland AFC,Liverpool FC,2014
+21,Burnley FC,Queens Park Rangers,2014
+21,Chelsea FC,Newcastle United,2014
+21,Everton FC,Manchester City,2014
+21,Leicester City,Aston Villa,2014
+21,Swansea City,West Ham United,2014
+21,West Bromwich Albion,Hull City,2014
+21,Crystal Palace,Tottenham Hotspur,2014
+21,Arsenal FC,Stoke City,2014
+21,Manchester United,Southampton FC,2014
+22,Aston Villa,Liverpool FC,2014
+22,Burnley FC,Crystal Palace,2014
+22,Leicester City,Stoke City,2014
+22,Queens Park Rangers,Manchester United,2014
+22,Swansea City,Chelsea FC,2014
+22,Tottenham Hotspur,Sunderland AFC,2014
+22,Newcastle United,Southampton FC,2014
+22,West Ham United,Hull City,2014
+22,Manchester City,Arsenal FC,2014
+22,Everton FC,West Bromwich Albion,2014
+23,Hull City,Newcastle United,2014
+23,Crystal Palace,Everton FC,2014
+23,Liverpool FC,West Ham United,2014
+23,Manchester United,Leicester City,2014
+23,Stoke City,Queens Park Rangers,2014
+23,Sunderland AFC,Burnley FC,2014
+23,West Bromwich Albion,Tottenham Hotspur,2014
+23,Chelsea FC,Manchester City,2014
+23,Arsenal FC,Aston Villa,2014
+23,Southampton FC,Swansea City,2014
+24,Tottenham Hotspur,Arsenal FC,2014
+24,Aston Villa,Chelsea FC,2014
+24,Leicester City,Crystal Palace,2014
+24,Manchester City,Hull City,2014
+24,Queens Park Rangers,Southampton FC,2014
+24,Swansea City,Sunderland AFC,2014
+24,Everton FC,Liverpool FC,2014
+24,Burnley FC,West Bromwich Albion,2014
+24,Newcastle United,Stoke City,2014
+24,West Ham United,Manchester United,2014
+25,Arsenal FC,Leicester City,2014
+25,Hull City,Aston Villa,2014
+25,Sunderland AFC,Queens Park Rangers,2014
+25,Liverpool FC,Tottenham Hotspur,2014
+25,Manchester United,Burnley FC,2014
+25,Southampton FC,West Ham United,2014
+25,Chelsea FC,Everton FC,2014
+25,Stoke City,Manchester City,2014
+25,Crystal Palace,Newcastle United,2014
+25,West Bromwich Albion,Swansea City,2014
+26,Aston Villa,Stoke City,2014
+26,Chelsea FC,Burnley FC,2014
+26,Crystal Palace,Arsenal FC,2014
+26,Hull City,Queens Park Rangers,2014
+26,Sunderland AFC,West Bromwich Albion,2014
+26,Swansea City,Manchester United,2014
+26,Manchester City,Newcastle United,2014
+26,Tottenham Hotspur,West Ham United,2014
+26,Everton FC,Leicester City,2014
+26,Southampton FC,Liverpool FC,2014
+27,West Ham United,Crystal Palace,2014
+27,Burnley FC,Swansea City,2014
+27,Manchester United,Sunderland AFC,2014
+27,Newcastle United,Aston Villa,2014
+27,Stoke City,Hull City,2014
+27,West Bromwich Albion,Southampton FC,2014
+27,Liverpool FC,Manchester City,2014
+27,Arsenal FC,Everton FC,2014
+27,Queens Park Rangers,Tottenham Hotspur,2014
+27,Leicester City,Chelsea FC,2014
+28,Aston Villa,West Bromwich Albion,2014
+28,Hull City,Sunderland AFC,2014
+28,Southampton FC,Crystal Palace,2014
+28,Queens Park Rangers,Arsenal FC,2014
+28,West Ham United,Chelsea FC,2014
+28,Manchester City,Leicester City,2014
+28,Newcastle United,Manchester United,2014
+28,Stoke City,Everton FC,2014
+28,Tottenham Hotspur,Swansea City,2014
+28,Liverpool FC,Burnley FC,2014
+29,Crystal Palace,Queens Park Rangers,2014
+29,Arsenal FC,West Ham United,2014
+29,Leicester City,Hull City,2014
+29,Sunderland AFC,Aston Villa,2014
+29,West Bromwich Albion,Stoke City,2014
+29,Burnley FC,Manchester City,2014
+29,Chelsea FC,Southampton FC,2014
+29,Everton FC,Newcastle United,2014
+29,Manchester United,Tottenham Hotspur,2014
+29,Swansea City,Liverpool FC,2014
+30,Manchester City,West Bromwich Albion,2014
+30,Aston Villa,Swansea City,2014
+30,Newcastle United,Arsenal FC,2014
+30,Southampton FC,Burnley FC,2014
+30,Stoke City,Crystal Palace,2014
+30,Tottenham Hotspur,Leicester City,2014
+30,West Ham United,Sunderland AFC,2014
+30,Liverpool FC,Manchester United,2014
+30,Hull City,Chelsea FC,2014
+30,Queens Park Rangers,Everton FC,2014
+31,Arsenal FC,Liverpool FC,2014
+31,Everton FC,Southampton FC,2014
+31,Leicester City,West Ham United,2014
+31,Manchester United,Aston Villa,2014
+31,Swansea City,Hull City,2014
+31,West Bromwich Albion,Queens Park Rangers,2014
+31,Chelsea FC,Stoke City,2014
+31,Burnley FC,Tottenham Hotspur,2014
+31,Sunderland AFC,Newcastle United,2014
+31,Crystal Palace,Manchester City,2014
+32,Swansea City,Everton FC,2014
+32,Southampton FC,Hull City,2014
+32,Sunderland AFC,Crystal Palace,2014
+32,Tottenham Hotspur,Aston Villa,2014
+32,West Bromwich Albion,Leicester City,2014
+32,West Ham United,Stoke City,2014
+32,Burnley FC,Arsenal FC,2014
+32,Queens Park Rangers,Chelsea FC,2014
+32,Manchester United,Manchester City,2014
+32,Liverpool FC,Newcastle United,2014
+33,Aston Villa,Queens Park Rangers,2014
+33,Crystal Palace,West Bromwich Albion,2014
+33,Everton FC,Burnley FC,2014
+33,Leicester City,Swansea City,2014
+33,Stoke City,Southampton FC,2014
+33,Chelsea FC,Manchester United,2014
+33,Manchester City,West Ham United,2014
+33,Newcastle United,Tottenham Hotspur,2014
+33,Hull City,Liverpool FC,2014
+33,Arsenal FC,Sunderland AFC,2014
+34,Southampton FC,Tottenham Hotspur,2014
+34,Burnley FC,Leicester City,2014
+34,Crystal Palace,Hull City,2014
+34,Newcastle United,Swansea City,2014
+34,Queens Park Rangers,West Ham United,2014
+34,Stoke City,Sunderland AFC,2014
+34,West Bromwich Albion,Liverpool FC,2014
+34,Manchester City,Aston Villa,2014
+34,Everton FC,Manchester United,2014
+34,Arsenal FC,Chelsea FC,2014
+35,Leicester City,Newcastle United,2014
+35,Aston Villa,Everton FC,2014
+35,Liverpool FC,Queens Park Rangers,2014
+35,Sunderland AFC,Southampton FC,2014
+35,Swansea City,Stoke City,2014
+35,West Ham United,Burnley FC,2014
+35,Manchester United,West Bromwich Albion,2014
+35,Chelsea FC,Crystal Palace,2014
+35,Tottenham Hotspur,Manchester City,2014
+35,Hull City,Arsenal FC,2014
+36,Everton FC,Sunderland AFC,2014
+36,Aston Villa,West Ham United,2014
+36,Hull City,Burnley FC,2014
+36,Leicester City,Southampton FC,2014
+36,Newcastle United,West Bromwich Albion,2014
+36,Stoke City,Tottenham Hotspur,2014
+36,Crystal Palace,Manchester United,2014
+36,Manchester City,Queens Park Rangers,2014
+36,Chelsea FC,Liverpool FC,2014
+36,Arsenal FC,Swansea City,2014
+37,Southampton FC,Aston Villa,2014
+37,Burnley FC,Stoke City,2014
+37,Queens Park Rangers,Newcastle United,2014
+37,Sunderland AFC,Leicester City,2014
+37,Tottenham Hotspur,Hull City,2014
+37,West Ham United,Everton FC,2014
+37,Liverpool FC,Crystal Palace,2014
+37,Swansea City,Manchester City,2014
+37,Manchester United,Arsenal FC,2014
+37,West Bromwich Albion,Chelsea FC,2014
+38,Arsenal FC,West Bromwich Albion,2014
+38,Aston Villa,Burnley FC,2014
+38,Chelsea FC,Sunderland AFC,2014
+38,Crystal Palace,Swansea City,2014
+38,Everton FC,Tottenham Hotspur,2014
+38,Hull City,Manchester United,2014
+38,Leicester City,Queens Park Rangers,2014
+38,Manchester City,Southampton FC,2014
+38,Newcastle United,West Ham United,2014
+38,Stoke City,Liverpool FC,2014
+1,Manchester United,Tottenham Hotspur,2015
+1,AFC Bournemouth,Aston Villa,2015
+1,Everton FC,Watford FC,2015
+1,Leicester City,Sunderland AFC,2015
+1,Norwich City,Crystal Palace,2015
+1,Chelsea FC,Swansea City,2015
+1,Arsenal FC,West Ham United,2015
+1,Newcastle United,Southampton FC,2015
+1,Stoke City,Liverpool FC,2015
+1,West Bromwich Albion,Manchester City,2015
+2,Aston Villa,Manchester United,2015
+2,Southampton FC,Everton FC,2015
+2,Sunderland AFC,Norwich City,2015
+2,Swansea City,Newcastle United,2015
+2,Tottenham Hotspur,Stoke City,2015
+2,Watford FC,West Bromwich Albion,2015
+2,West Ham United,Leicester City,2015
+2,Crystal Palace,Arsenal FC,2015
+2,Manchester City,Chelsea FC,2015
+2,Liverpool FC,AFC Bournemouth,2015
+3,Manchester United,Newcastle United,2015
+3,Crystal Palace,Aston Villa,2015
+3,Leicester City,Tottenham Hotspur,2015
+3,Norwich City,Stoke City,2015
+3,Sunderland AFC,Swansea City,2015
+3,West Ham United,AFC Bournemouth,2015
+3,West Bromwich Albion,Chelsea FC,2015
+3,Everton FC,Manchester City,2015
+3,Watford FC,Southampton FC,2015
+3,Arsenal FC,Liverpool FC,2015
+4,Newcastle United,Arsenal FC,2015
+4,AFC Bournemouth,Leicester City,2015
+4,Aston Villa,Sunderland AFC,2015
+4,Chelsea FC,Crystal Palace,2015
+4,Liverpool FC,West Ham United,2015
+4,Manchester City,Watford FC,2015
+4,Stoke City,West Bromwich Albion,2015
+4,Tottenham Hotspur,Everton FC,2015
+4,Southampton FC,Norwich City,2015
+4,Swansea City,Manchester United,2015
+5,Everton FC,Chelsea FC,2015
+5,Arsenal FC,Stoke City,2015
+5,Crystal Palace,Manchester City,2015
+5,Norwich City,AFC Bournemouth,2015
+5,Watford FC,Swansea City,2015
+5,West Bromwich Albion,Southampton FC,2015
+5,Manchester United,Liverpool FC,2015
+5,Sunderland AFC,Tottenham Hotspur,2015
+5,Leicester City,Aston Villa,2015
+5,West Ham United,Newcastle United,2015
+6,Chelsea FC,Arsenal FC,2015
+6,AFC Bournemouth,Sunderland AFC,2015
+6,Aston Villa,West Bromwich Albion,2015
+6,Newcastle United,Watford FC,2015
+6,Stoke City,Leicester City,2015
+6,Swansea City,Everton FC,2015
+6,Manchester City,West Ham United,2015
+6,Tottenham Hotspur,Crystal Palace,2015
+6,Liverpool FC,Norwich City,2015
+6,Southampton FC,Manchester United,2015
+7,Tottenham Hotspur,Manchester City,2015
+7,Leicester City,Arsenal FC,2015
+7,Liverpool FC,Aston Villa,2015
+7,Manchester United,Sunderland AFC,2015
+7,Southampton FC,Swansea City,2015
+7,Stoke City,AFC Bournemouth,2015
+7,West Ham United,Norwich City,2015
+7,Newcastle United,Chelsea FC,2015
+7,Watford FC,Crystal Palace,2015
+7,West Bromwich Albion,Everton FC,2015
+8,Crystal Palace,West Bromwich Albion,2015
+8,AFC Bournemouth,Watford FC,2015
+8,Aston Villa,Stoke City,2015
+8,Manchester City,Newcastle United,2015
+8,Norwich City,Leicester City,2015
+8,Sunderland AFC,West Ham United,2015
+8,Chelsea FC,Southampton FC,2015
+8,Everton FC,Liverpool FC,2015
+8,Arsenal FC,Manchester United,2015
+8,Swansea City,Tottenham Hotspur,2015
+9,Tottenham Hotspur,Liverpool FC,2015
+9,Chelsea FC,Aston Villa,2015
+9,Crystal Palace,West Ham United,2015
+9,Everton FC,Manchester United,2015
+9,Manchester City,AFC Bournemouth,2015
+9,Southampton FC,Leicester City,2015
+9,West Bromwich Albion,Sunderland AFC,2015
+9,Watford FC,Arsenal FC,2015
+9,Newcastle United,Norwich City,2015
+9,Swansea City,Stoke City,2015
+10,Aston Villa,Swansea City,2015
+10,Leicester City,Crystal Palace,2015
+10,Norwich City,West Bromwich Albion,2015
+10,Stoke City,Watford FC,2015
+10,West Ham United,Chelsea FC,2015
+10,Arsenal FC,Everton FC,2015
+10,Sunderland AFC,Newcastle United,2015
+10,AFC Bournemouth,Tottenham Hotspur,2015
+10,Manchester United,Manchester City,2015
+10,Liverpool FC,Southampton FC,2015
+11,Chelsea FC,Liverpool FC,2015
+11,Crystal Palace,Manchester United,2015
+11,Manchester City,Norwich City,2015
+11,Newcastle United,Stoke City,2015
+11,Swansea City,Arsenal FC,2015
+11,Watford FC,West Ham United,2015
+11,West Bromwich Albion,Leicester City,2015
+11,Everton FC,Sunderland AFC,2015
+11,Southampton FC,AFC Bournemouth,2015
+11,Tottenham Hotspur,Aston Villa,2015
+12,AFC Bournemouth,Newcastle United,2015
+12,Leicester City,Watford FC,2015
+12,Manchester United,West Bromwich Albion,2015
+12,Norwich City,Swansea City,2015
+12,Sunderland AFC,Southampton FC,2015
+12,West Ham United,Everton FC,2015
+12,Stoke City,Chelsea FC,2015
+12,Aston Villa,Manchester City,2015
+12,Arsenal FC,Tottenham Hotspur,2015
+12,Liverpool FC,Crystal Palace,2015
+13,Watford FC,Manchester United,2015
+13,Chelsea FC,Norwich City,2015
+13,Everton FC,Aston Villa,2015
+13,Newcastle United,Leicester City,2015
+13,Southampton FC,Stoke City,2015
+13,Swansea City,AFC Bournemouth,2015
+13,West Bromwich Albion,Arsenal FC,2015
+13,Manchester City,Liverpool FC,2015
+13,Tottenham Hotspur,West Ham United,2015
+13,Crystal Palace,Sunderland AFC,2015
+14,AFC Bournemouth,Everton FC,2015
+14,Aston Villa,Watford FC,2015
+14,Crystal Palace,Newcastle United,2015
+14,Manchester City,Southampton FC,2015
+14,Sunderland AFC,Stoke City,2015
+14,Leicester City,Manchester United,2015
+14,Tottenham Hotspur,Chelsea FC,2015
+14,West Ham United,West Bromwich Albion,2015
+14,Liverpool FC,Swansea City,2015
+14,Norwich City,Arsenal FC,2015
+15,Stoke City,Manchester City,2015
+15,Arsenal FC,Sunderland AFC,2015
+15,Manchester United,West Ham United,2015
+15,Southampton FC,Aston Villa,2015
+15,Swansea City,Leicester City,2015
+15,Watford FC,Norwich City,2015
+15,West Bromwich Albion,Tottenham Hotspur,2015
+15,Chelsea FC,AFC Bournemouth,2015
+15,Newcastle United,Liverpool FC,2015
+15,Everton FC,Crystal Palace,2015
+16,Norwich City,Everton FC,2015
+16,Crystal Palace,Southampton FC,2015
+16,Manchester City,Swansea City,2015
+16,Sunderland AFC,Watford FC,2015
+16,West Ham United,Stoke City,2015
+16,AFC Bournemouth,Manchester United,2015
+16,Aston Villa,Arsenal FC,2015
+16,Liverpool FC,West Bromwich Albion,2015
+16,Tottenham Hotspur,Newcastle United,2015
+16,Leicester City,Chelsea FC,2015
+17,Chelsea FC,Sunderland AFC,2015
+17,Everton FC,Leicester City,2015
+17,Manchester United,Norwich City,2015
+17,Southampton FC,Tottenham Hotspur,2015
+17,Stoke City,Crystal Palace,2015
+17,West Bromwich Albion,AFC Bournemouth,2015
+17,Newcastle United,Aston Villa,2015
+17,Watford FC,Liverpool FC,2015
+17,Swansea City,West Ham United,2015
+17,Arsenal FC,Manchester City,2015
+18,Stoke City,Manchester United,2015
+18,AFC Bournemouth,Crystal Palace,2015
+18,Aston Villa,West Ham United,2015
+18,Chelsea FC,Watford FC,2015
+18,Liverpool FC,Leicester City,2015
+18,Manchester City,Sunderland AFC,2015
+18,Swansea City,West Bromwich Albion,2015
+18,Tottenham Hotspur,Norwich City,2015
+18,Newcastle United,Everton FC,2015
+18,Southampton FC,Arsenal FC,2015
+19,Crystal Palace,Swansea City,2015
+19,Everton FC,Stoke City,2015
+19,Norwich City,Aston Villa,2015
+19,Watford FC,Tottenham Hotspur,2015
+19,West Bromwich Albion,Newcastle United,2015
+19,Arsenal FC,AFC Bournemouth,2015
+19,Manchester United,Chelsea FC,2015
+19,West Ham United,Southampton FC,2015
+19,Leicester City,Manchester City,2015
+19,Sunderland AFC,Liverpool FC,2015
+20,West Ham United,Liverpool FC,2015
+20,Arsenal FC,Newcastle United,2015
+20,Leicester City,AFC Bournemouth,2015
+20,Manchester United,Swansea City,2015
+20,Norwich City,Southampton FC,2015
+20,Sunderland AFC,Aston Villa,2015
+20,West Bromwich Albion,Stoke City,2015
+20,Watford FC,Manchester City,2015
+20,Crystal Palace,Chelsea FC,2015
+20,Everton FC,Tottenham Hotspur,2015
+21,AFC Bournemouth,West Ham United,2015
+21,Aston Villa,Crystal Palace,2015
+21,Newcastle United,Manchester United,2015
+21,Swansea City,Sunderland AFC,2015
+21,Chelsea FC,West Bromwich Albion,2015
+21,Manchester City,Everton FC,2015
+21,Southampton FC,Watford FC,2015
+21,Stoke City,Norwich City,2015
+21,Liverpool FC,Arsenal FC,2015
+21,Tottenham Hotspur,Leicester City,2015
+22,Tottenham Hotspur,Sunderland AFC,2015
+22,AFC Bournemouth,Norwich City,2015
+22,Chelsea FC,Everton FC,2015
+22,Manchester City,Crystal Palace,2015
+22,Newcastle United,West Ham United,2015
+22,Southampton FC,West Bromwich Albion,2015
+22,Aston Villa,Leicester City,2015
+22,Liverpool FC,Manchester United,2015
+22,Stoke City,Arsenal FC,2015
+22,Swansea City,Watford FC,2015
+23,Norwich City,Liverpool FC,2015
+23,Crystal Palace,Tottenham Hotspur,2015
+23,Leicester City,Stoke City,2015
+23,Manchester United,Southampton FC,2015
+23,Sunderland AFC,AFC Bournemouth,2015
+23,Watford FC,Newcastle United,2015
+23,West Bromwich Albion,Aston Villa,2015
+23,West Ham United,Manchester City,2015
+23,Everton FC,Swansea City,2015
+23,Arsenal FC,Chelsea FC,2015
+24,Arsenal FC,Southampton FC,2015
+24,Leicester City,Liverpool FC,2015
+24,Norwich City,Tottenham Hotspur,2015
+24,Sunderland AFC,Manchester City,2015
+24,West Ham United,Aston Villa,2015
+24,Crystal Palace,AFC Bournemouth,2015
+24,Manchester United,Stoke City,2015
+24,West Bromwich Albion,Swansea City,2015
+24,Watford FC,Chelsea FC,2015
+24,Everton FC,Newcastle United,2015
+25,Manchester City,Leicester City,2015
+25,Aston Villa,Norwich City,2015
+25,Liverpool FC,Sunderland AFC,2015
+25,Newcastle United,West Bromwich Albion,2015
+25,Stoke City,Everton FC,2015
+25,Swansea City,Crystal Palace,2015
+25,Tottenham Hotspur,Watford FC,2015
+25,Southampton FC,West Ham United,2015
+25,AFC Bournemouth,Arsenal FC,2015
+25,Chelsea FC,Manchester United,2015
+26,Sunderland AFC,Manchester United,2015
+26,AFC Bournemouth,Stoke City,2015
+26,Crystal Palace,Watford FC,2015
+26,Everton FC,West Bromwich Albion,2015
+26,Norwich City,West Ham United,2015
+26,Swansea City,Southampton FC,2015
+26,Chelsea FC,Newcastle United,2015
+26,Arsenal FC,Leicester City,2015
+26,Aston Villa,Liverpool FC,2015
+26,Manchester City,Tottenham Hotspur,2015
+27,West Ham United,Sunderland AFC,2015
+27,Leicester City,Norwich City,2015
+27,Southampton FC,Chelsea FC,2015
+27,Stoke City,Aston Villa,2015
+27,Watford FC,AFC Bournemouth,2015
+27,West Bromwich Albion,Crystal Palace,2015
+27,Manchester United,Arsenal FC,2015
+27,Tottenham Hotspur,Swansea City,2015
+27,Newcastle United,Manchester City,2015
+27,Liverpool FC,Everton FC,2015
+28,AFC Bournemouth,Southampton FC,2015
+28,Aston Villa,Everton FC,2015
+28,Leicester City,West Bromwich Albion,2015
+28,Norwich City,Chelsea FC,2015
+28,Sunderland AFC,Crystal Palace,2015
+28,Arsenal FC,Swansea City,2015
+28,West Ham United,Tottenham Hotspur,2015
+28,Stoke City,Newcastle United,2015
+28,Liverpool FC,Manchester City,2015
+28,Manchester United,Watford FC,2015
+29,Tottenham Hotspur,Arsenal FC,2015
+29,Chelsea FC,Stoke City,2015
+29,Everton FC,West Ham United,2015
+29,Manchester City,Aston Villa,2015
+29,Newcastle United,AFC Bournemouth,2015
+29,Southampton FC,Sunderland AFC,2015
+29,Swansea City,Norwich City,2015
+29,Watford FC,Leicester City,2015
+29,Crystal Palace,Liverpool FC,2015
+29,West Bromwich Albion,Manchester United,2015
+30,Norwich City,Manchester City,2015
+30,AFC Bournemouth,Swansea City,2015
+30,Stoke City,Southampton FC,2015
+30,Aston Villa,Tottenham Hotspur,2015
+30,Leicester City,Newcastle United,2015
+30,West Ham United,Watford FC,2015
+30,Manchester United,Crystal Palace,2015
+30,Arsenal FC,West Bromwich Albion,2015
+30,Sunderland AFC,Everton FC,2015
+30,Liverpool FC,Chelsea FC,2015
+31,Everton FC,Arsenal FC,2015
+31,Chelsea FC,West Ham United,2015
+31,Crystal Palace,Leicester City,2015
+31,Watford FC,Stoke City,2015
+31,West Bromwich Albion,Norwich City,2015
+31,Swansea City,Aston Villa,2015
+31,Newcastle United,Sunderland AFC,2015
+31,Southampton FC,Liverpool FC,2015
+31,Manchester City,Manchester United,2015
+31,Tottenham Hotspur,AFC Bournemouth,2015
+32,Aston Villa,Chelsea FC,2015
+32,AFC Bournemouth,Manchester City,2015
+32,Arsenal FC,Watford FC,2015
+32,Norwich City,Newcastle United,2015
+32,Stoke City,Swansea City,2015
+32,Sunderland AFC,West Bromwich Albion,2015
+32,West Ham United,Crystal Palace,2015
+32,Liverpool FC,Tottenham Hotspur,2015
+32,Leicester City,Southampton FC,2015
+32,Manchester United,Everton FC,2015
+33,West Ham United,Arsenal FC,2015
+33,Aston Villa,AFC Bournemouth,2015
+33,Crystal Palace,Norwich City,2015
+33,Southampton FC,Newcastle United,2015
+33,Swansea City,Chelsea FC,2015
+33,Watford FC,Everton FC,2015
+33,Manchester City,West Bromwich Albion,2015
+33,Sunderland AFC,Leicester City,2015
+33,Liverpool FC,Stoke City,2015
+33,Tottenham Hotspur,Manchester United,2015
+34,Norwich City,Sunderland AFC,2015
+34,Everton FC,Southampton FC,2015
+34,Manchester United,Aston Villa,2015
+34,Newcastle United,Swansea City,2015
+34,West Bromwich Albion,Watford FC,2015
+34,Chelsea FC,Manchester City,2015
+34,AFC Bournemouth,Liverpool FC,2015
+34,Leicester City,West Ham United,2015
+34,Arsenal FC,Crystal Palace,2015
+34,Stoke City,Tottenham Hotspur,2015
+35,Crystal Palace,Everton FC,2015
+35,Manchester City,Stoke City,2015
+35,AFC Bournemouth,Chelsea FC,2015
+35,Aston Villa,Southampton FC,2015
+35,Liverpool FC,Newcastle United,2015
+35,Sunderland AFC,Arsenal FC,2015
+35,Leicester City,Swansea City,2015
+35,Tottenham Hotspur,West Bromwich Albion,2015
+35,West Ham United,Manchester United,2015
+35,Norwich City,Watford FC,2015
+36,Everton FC,AFC Bournemouth,2015
+36,Newcastle United,Crystal Palace,2015
+36,Stoke City,Sunderland AFC,2015
+36,Watford FC,Aston Villa,2015
+36,West Bromwich Albion,West Ham United,2015
+36,Arsenal FC,Norwich City,2015
+36,Swansea City,Liverpool FC,2015
+36,Manchester United,Leicester City,2015
+36,Southampton FC,Manchester City,2015
+36,Chelsea FC,Tottenham Hotspur,2015
+37,Norwich City,Manchester United,2015
+37,AFC Bournemouth,West Bromwich Albion,2015
+37,Aston Villa,Newcastle United,2015
+37,Crystal Palace,Stoke City,2015
+37,Sunderland AFC,Chelsea FC,2015
+37,West Ham United,Swansea City,2015
+37,Leicester City,Everton FC,2015
+37,Tottenham Hotspur,Southampton FC,2015
+37,Liverpool FC,Watford FC,2015
+37,Manchester City,Arsenal FC,2015
+38,Arsenal FC,Aston Villa,2015
+38,Chelsea FC,Leicester City,2015
+38,Everton FC,Norwich City,2015
+38,Newcastle United,Tottenham Hotspur,2015
+38,Southampton FC,Crystal Palace,2015
+38,Stoke City,West Ham United,2015
+38,Swansea City,Manchester City,2015
+38,Watford FC,Sunderland AFC,2015
+38,West Bromwich Albion,Liverpool FC,2015
+38,Manchester United,AFC Bournemouth,2015

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(FinCal)\nlibrary(reshape2)\n\ndat <- get.ohlc.yahoo('AAPL', '2015-12-01', '2015-12-31')\n#dat$date <- strptime(dat$date, \"%Y-%m-%d\")\ndat$date <- as.Date(dat$date, \"%Y-%m-%d\")\ndat$times <- seq(nrow(dat))\nmm <- melt(subset(dat, select=c(times,adjusted, volume)), id.var=\"times\")\n\nlibrary(ggplot2)\nggplot(mm, aes(x = times, y = value)) + geom_line(aes(color = variable)) + \n    facet_grid(variable ~ ., scales = \"free_y\") + theme(legend.position = \"none\")\n\np1 <- ggplot(dat, aes(date, adjusted)) + geom_line() + theme_minimal() + \n    theme(axis.title.x = element_blank(), axis.text.x = element_blank())\np2 <- ggplot(dat,aes(date, volume)) + geom_bar(stat=\"identity\") + theme_minimal() + \n    theme(axis.title.x = element_blank(),axis.text.x = element_text(angle=90))\n\nlibrary(grid)\ngrid.newpage()\ngrid.draw(rbind(ggplotGrob(p1), ggplotGrob(p2), size = \"last\"))\n\n\nlibrary(ggplot2)\n( g <- ggplot(eq, aes(x = Magnitude, y = Depth)) +\n        geom_point() +\n        geom_point(data = eq,\n                   color = eq$mag.col, size = 3) )\nggsave(g, file=\"c:\\\\eqDepthMagnitude.svg\")",
+    "created" : 1491397251825.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "4175927548",
+    "id" : "54D055C6",
+    "lastKnownWriteTime" : 131455952,
+    "last_content_update" : 1491398182446,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
