@@ -1,4 +1,7 @@
 SkinDetection = function(im, blur=2){
+    source("./services/skin_detection_components/KovacSkinDetection.R")
+    source("./services/skin_detection_components/OsmanSkinDetection.R")
+    source("./services/skin_detection_components/SwiftSkinDetection.R")
     
     if(class(im)!="cimg"){
         warning('im is not of class cimg')
@@ -12,7 +15,7 @@ SkinDetection = function(im, blur=2){
                         KovacSkinDetection(im)$value > 0,
                         SwiftSkinDetection(im)$value > 0)
         img$value = img$weight * img$value
-        skin = as.cimg(img[c('x','y','cc','value')], x = sizex, y = sizey)
+        skin = as.cimg(img[c('x','y','cc','value')], x = sizex, y = sizey, cc = 3)
         return(skin)
     }
 }
