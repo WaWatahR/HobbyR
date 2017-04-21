@@ -15,8 +15,8 @@ SkinDetection = function(im, blur=2){
                         KovacSkinDetection(im)$value > 0,
                         SwiftSkinDetection(im)$value > 0)
         img$value = img$weight * img$value
-        skin = as.cimg(img[c('x','y','cc','value')], x = sizex, y = sizey, cc = 3)
+        skin = as.cimg(as.matrix(img[c('x','y','cc','value')]), x = sizex, y = sizey, cc = 3)
         return(skin)
     }
 }
-SkinDetection(im) %>% plot
+#SkinDetection(im) %>% plot

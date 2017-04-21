@@ -1,7 +1,7 @@
 #Initialize tensorflow
 ClassCount= 3L
-xdim = 64L
-ydim = 64L
+xdim = 28L
+ydim = 28L
 Convstride = 5L
 Poolstride = 2L
 PixelCount = xdim * ydim

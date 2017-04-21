@@ -52,6 +52,6 @@ for (i in 1:10) {
 
 train_accuracy <- accuracy$eval(feed_dict = dict(x = as.matrix(input[[1]]), y_ = as.matrix(input[[2]]), keep_prob = 1.0))
 
-prediction$eval(feed_dict = dict(x = as.matrix(input[[1]][1,]), keep_prob = 1.0), session=sess)
-probabilities$eval(feed_dict = dict(x = as.matrix(input[[1]]), keep_prob = 1.0), session=sess)
+prediction$eval(feed_dict = dict(x = as.matrix(input[[1]]), keep_prob = 1.0), session=sess)
+probabilities$eval(feed_dict = dict(x = as.matrix(input[[1]][1,]), keep_prob = 1.0), session=sess)
                  
